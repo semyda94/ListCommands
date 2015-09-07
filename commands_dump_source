@@ -1,0 +1,6220 @@
+debug commands-dump[J
+shell(0x15258)
+OVERVIEW:
+(null)  ______________________________________________________________________________
+=========================================================
+VIEW: acl-ip-view
+=========================================================
+add
+add allow
+add allow any
+add allow any any
+add allow any any <IP>
+add allow any any <MASK>
+add allow any front-port
+add allow any front-port <PORT>
+add allow any front-port <IP>
+add allow any front-port <MASK>
+add allow any port-channel
+add allow any port-channel <PORT>
+add allow any port-channel <IP>
+add allow any port-channel <MASK>
+add allow any slot-channel
+add allow any slot-channel <PORT>
+add allow any slot-channel <IP>
+add allow http
+add allow http any
+add allow http any <IP>
+add allow http any <MASK>
+add allow http front-port
+add allow http front-port <PORT>
+add allow http front-port <IP>
+add allow http front-port <MASK>
+add allow http port-channel
+add allow http port-channel <PORT>
+add allow http port-channel <IP>
+add allow http port-channel <MASK>
+add allow http slot-channel
+add allow http slot-channel <PORT>
+add allow http slot-channel <IP>
+add allow http slot-channel <MASK>
+add allow snmp
+add allow snmp any
+add allow snmp any <IP>
+add allow snmp any <MASK>
+add allow snmp front-port
+add allow snmp front-port <PORT>
+add allow snmp front-port <IP>
+add allow snmp front-port <MASK>
+add allow snmp port-channel
+add allow snmp port-channel <PORT>
+add allow snmp port-channel <IP>
+add allow snmp port-channel <MASK>
+add allow snmp slot-channel
+add allow snmp slot-channel <PORT>
+add allow snmp slot-channel <IP>
+add allow snmp slot-channel <MASK>
+add allow ssh
+add allow ssh any
+add allow ssh any <IP>
+add allow ssh any <MASK>
+add allow ssh front-port
+add allow ssh front-port <PORT>
+add allow ssh front-port <IP>
+add allow ssh front-port <MASK>
+add allow ssh port-channel
+add allow ssh port-channel <PORT>
+add allow ssh port-channel <IP>
+add allow ssh port-channel <MASK>
+add allow ssh slot-channel
+add allow ssh slot-channel <PORT>
+add allow ssh slot-channel <IP>
+add allow ssh slot-channel <MASK>
+add allow telnet
+add allow telnet any
+add allow telnet any <IP>
+add allow telnet any <MASK>
+add allow telnet front-port
+add allow telnet front-port <PORT>
+add allow telnet front-port <IP>
+add allow telnet front-port <MASK>
+add allow telnet port-channel
+add allow telnet port-channel <PORT>
+add allow telnet port-channel <IP>
+add allow telnet port-channel <MASK>
+add allow telnet slot-channel
+add allow telnet slot-channel <PORT>
+add allow telnet slot-channel <IP>
+add allow telnet slot-channel <MASK>
+add deny
+add deny any
+add deny any any
+add deny any any <IP>
+add deny any any <MASK>
+add deny any front-port
+add deny any front-port <PORT>
+add deny any front-port <IP>
+add deny any front-port <MASK>
+add deny any port-channel
+add deny any port-channel <PORT>
+add deny any port-channel <IP>
+add deny any port-channel <MASK>
+add deny any slot-channel
+add deny any slot-channel <PORT>
+add deny any slot-channel <IP>
+add deny any slot-channel <MASK>
+add deny http
+add deny http any
+add deny http any <IP>
+add deny http any <MASK>
+add deny http front-port
+add deny http front-port <PORT>
+add deny http front-port <IP>
+add deny http front-port <MASK>
+add deny http port-channel
+add deny http port-channel <PORT>
+add deny http port-channel <IP>
+add deny http port-channel <MASK>
+add deny http slot-channel
+add deny http slot-channel <PORT>
+add deny http slot-channel <IP>
+add deny http slot-channel <MASK>
+add deny snmp
+add deny snmp any
+add deny snmp any <IP>
+add deny snmp any <MASK>
+add deny snmp front-port
+add deny snmp front-port <PORT>
+add deny snmp front-port <IP>
+add deny snmp front-port <MASK>
+add deny snmp port-channel
+add deny snmp port-channel <PORT>
+add deny snmp port-channel <IP>
+add deny snmp port-channel <MASK>
+add deny snmp slot-channel
+add deny snmp slot-channel <PORT>
+add deny snmp slot-channel <IP>
+add deny snmp slot-channel <MASK>
+add deny ssh
+add deny ssh any
+add deny ssh any <IP>
+add deny ssh any <MASK>
+add deny ssh front-port
+add deny ssh front-port <PORT>
+add deny ssh front-port <IP>
+add deny ssh front-port <MASK>
+add deny ssh port-channel
+add deny ssh port-channel <PORT>
+add deny ssh port-channel <IP>
+add deny ssh port-channel <MASK>
+add deny ssh slot-channel
+add deny ssh slot-channel <PORT>
+add deny ssh slot-channel <IP>
+add deny ssh slot-channel <MASK>
+add deny telnet
+add deny telnet any
+add deny telnet any <IP>
+add deny telnet any <MASK>
+add deny telnet front-port
+add deny telnet front-port <PORT>
+add deny telnet front-port <IP>
+add deny telnet front-port <MASK>
+add deny telnet port-channel
+add deny telnet port-channel <PORT>
+add deny telnet port-channel <IP>
+add deny telnet port-channel <MASK>
+add deny telnet slot-channel
+add deny telnet slot-channel <PORT>
+add deny telnet slot-channel <IP>
+add deny telnet slot-channel <MASK>
+do
+exit
+insert
+insert allow
+insert allow any
+insert allow any any
+insert allow any any <IP>
+insert allow any any <MASK>
+insert allow any any <POS>
+insert allow any front-port
+insert allow any front-port <PORT>
+insert allow any front-port <IP>
+insert allow any front-port <MASK>
+insert allow any front-port <POS>
+insert allow any port-channel
+insert allow any port-channel <PORT>
+insert allow any port-channel <IP>
+insert allow any port-channel <MASK>
+insert allow any port-channel <POS>
+insert allow any slot-channel
+insert allow any slot-channel <PORT>
+insert allow any slot-channel <IP>
+insert allow any slot-channel <POS>
+insert allow http
+insert allow http any
+insert allow http any <IP>
+insert allow http any <MASK>
+insert allow http any <POS>
+insert allow http front-port
+insert allow http front-port <PORT>
+insert allow http front-port <IP>
+insert allow http front-port <MASK>
+insert allow http front-port <POS>
+insert allow http port-channel
+insert allow http port-channel <PORT>
+insert allow http port-channel <IP>
+insert allow http port-channel <MASK>
+insert allow http port-channel <POS>
+insert allow http slot-channel
+insert allow http slot-channel <PORT>
+insert allow http slot-channel <IP>
+insert allow http slot-channel <MASK>
+insert allow http slot-channel <POS>
+insert allow snmp
+insert allow snmp any
+insert allow snmp any <IP>
+insert allow snmp any <MASK>
+insert allow snmp any <POS>
+insert allow snmp front-port
+insert allow snmp front-port <PORT>
+insert allow snmp front-port <IP>
+insert allow snmp front-port <MASK>
+insert allow snmp front-port <POS>
+insert allow snmp port-channel
+insert allow snmp port-channel <PORT>
+insert allow snmp port-channel <IP>
+insert allow snmp port-channel <MASK>
+insert allow snmp port-channel <POS>
+insert allow snmp slot-channel
+insert allow snmp slot-channel <PORT>
+insert allow snmp slot-channel <IP>
+insert allow snmp slot-channel <MASK>
+insert allow snmp slot-channel <POS>
+insert allow ssh
+insert allow ssh any
+insert allow ssh any <IP>
+insert allow ssh any <MASK>
+insert allow ssh any <POS>
+insert allow ssh front-port
+insert allow ssh front-port <PORT>
+insert allow ssh front-port <IP>
+insert allow ssh front-port <MASK>
+insert allow ssh front-port <POS>
+insert allow ssh port-channel
+insert allow ssh port-channel <PORT>
+insert allow ssh port-channel <IP>
+insert allow ssh port-channel <MASK>
+insert allow ssh port-channel <POS>
+insert allow ssh slot-channel
+insert allow ssh slot-channel <PORT>
+insert allow ssh slot-channel <IP>
+insert allow ssh slot-channel <MASK>
+insert allow ssh slot-channel <POS>
+insert allow telnet
+insert allow telnet any
+insert allow telnet any <IP>
+insert allow telnet any <MASK>
+insert allow telnet any <POS>
+insert allow telnet front-port
+insert allow telnet front-port <PORT>
+insert allow telnet front-port <IP>
+insert allow telnet front-port <MASK>
+insert allow telnet front-port <POS>
+insert allow telnet port-channel
+insert allow telnet port-channel <PORT>
+insert allow telnet port-channel <IP>
+insert allow telnet port-channel <MASK>
+insert allow telnet port-channel <POS>
+insert allow telnet slot-channel
+insert allow telnet slot-channel <PORT>
+insert allow telnet slot-channel <IP>
+insert allow telnet slot-channel <MASK>
+insert allow telnet slot-channel <POS>
+insert deny
+insert deny any
+insert deny any any
+insert deny any any <IP>
+insert deny any any <MASK>
+insert deny any any <POS>
+insert deny any front-port
+insert deny any front-port <PORT>
+insert deny any front-port <IP>
+insert deny any front-port <MASK>
+insert deny any front-port <POS>
+insert deny any port-channel
+insert deny any port-channel <PORT>
+insert deny any port-channel <IP>
+insert deny any port-channel <MASK>
+insert deny any port-channel <POS>
+insert deny any slot-channel
+insert deny any slot-channel <PORT>
+insert deny any slot-channel <IP>
+insert deny any slot-channel <MASK>
+insert deny any slot-channel <POS>
+insert deny http
+insert deny http any
+insert deny http any <IP>
+insert deny http any <MASK>
+insert deny http any <POS>
+insert deny http front-port
+insert deny http front-port <PORT>
+insert deny http front-port <IP>
+insert deny http front-port <MASK>
+insert deny http front-port <POS>
+insert deny http port-channel
+insert deny http port-channel <PORT>
+insert deny http port-channel <IP>
+insert deny http port-channel <MASK>
+insert deny http port-channel <POS>
+insert deny http slot-channel
+insert deny http slot-channel <PORT>
+insert deny http slot-channel <IP>
+insert deny http slot-channel <MASK>
+insert deny http slot-channel <POS>
+insert deny snmp
+insert deny snmp any
+insert deny snmp any <IP>
+insert deny snmp any <MASK>
+insert deny snmp any <POS>
+insert deny snmp front-port
+insert deny snmp front-port <PORT>
+insert deny snmp front-port <IP>
+insert deny snmp front-port <MASK>
+insert deny snmp front-port <POS>
+insert deny snmp port-channel
+insert deny snmp port-channel <PORT>
+insert deny snmp port-channel <IP>
+insert deny snmp port-channel <MASK>
+insert deny snmp port-channel <POS>
+insert deny snmp slot-channel
+insert deny snmp slot-channel <PORT>
+insert deny snmp slot-channel <IP>
+insert deny snmp slot-channel <MASK>
+insert deny snmp slot-channel <POS>
+insert deny ssh
+insert deny ssh any
+insert deny ssh any <IP>
+insert deny ssh any <MASK>
+insert deny ssh any <POS>
+insert deny ssh front-port
+insert deny ssh front-port <PORT>
+insert deny ssh front-port <IP>
+insert deny ssh front-port <MASK>
+insert deny ssh front-port <POS>
+insert deny ssh port-channel
+insert deny ssh port-channel <PORT>
+insert deny ssh port-channel <IP>
+insert deny ssh port-channel <MASK>
+insert deny ssh port-channel <POS>
+insert deny ssh slot-channel
+insert deny ssh slot-channel <PORT>
+insert deny ssh slot-channel <IP>
+insert deny ssh slot-channel <MASK>
+insert deny ssh slot-channel <POS>
+insert deny telnet
+insert deny telnet any
+insert deny telnet any <IP>
+insert deny telnet any <MASK>
+insert deny telnet any <POS>
+insert deny telnet front-port
+insert deny telnet front-port <PORT>
+insert deny telnet front-port <IP>
+insert deny telnet front-port <MASK>
+insert deny telnet front-port <POS>
+insert deny telnet port-channel
+insert deny telnet port-channel <PORT>
+insert deny telnet port-channel <IP>
+insert deny telnet port-channel <MASK>
+insert deny telnet port-channel <POS>
+insert deny telnet slot-channel
+insert deny telnet slot-channel <PORT>
+insert deny telnet slot-channel <IP>
+insert deny telnet slot-channel <MASK>
+insert deny telnet slot-channel <POS>
+remove
+remove allow
+remove allow any
+remove allow any any
+remove allow any any <IP>
+remove allow any any <MASK>
+remove allow any front-port
+remove allow any front-port <PORT>
+remove allow any front-port <IP>
+remove allow any front-port <MASK>
+remove allow any port-channel
+remove allow any port-channel <PORT>
+remove allow any port-channel <IP>
+remove allow any port-channel <MASK>
+remove allow any slot-channel
+remove allow any slot-channel <PORT>
+remove allow any slot-channel <IP>
+remove allow any slot-channel <MASK>
+remove allow http
+remove allow http any
+remove allow http any <IP>
+remove allow http any <MASK>
+remove allow http front-port
+remove allow http front-port <PORT>
+remove allow http front-port <IP>
+remove allow http front-port <MASK>
+remove allow http port-channel
+remove allow http port-channel <PORT>
+remove allow http port-channel <IP>
+remove allow http port-channel <MASK>
+remove allow http slot-channel
+remove allow http slot-channel <PORT>
+remove allow http slot-channel <IP>
+remove allow http slot-channel <MASK>
+remove allow snmp
+remove allow snmp any
+remove allow snmp any <IP>
+remove allow snmp any <MASK>
+remove allow snmp front-port
+remove allow snmp front-port <PORT>
+remove allow snmp front-port <IP>
+remove allow snmp front-port <MASK>
+remove allow snmp port-channel
+remove allow snmp port-channel <PORT>
+remove allow snmp port-channel <IP>
+remove allow snmp port-channel <MASK>
+remove allow snmp slot-channel
+remove allow snmp slot-channel <PORT>
+remove allow snmp slot-channel <IP>
+remove allow snmp slot-channel <MASK>
+remove allow ssh
+remove allow ssh any
+remove allow ssh any <IP>
+remove allow ssh any <MASK>
+remove allow ssh front-port
+remove allow ssh front-port <PORT>
+remove allow ssh front-port <IP>
+remove allow ssh front-port <MASK>
+remove allow ssh port-channel
+remove allow ssh port-channel <PORT>
+remove allow ssh port-channel <IP>
+remove allow ssh port-channel <MASK>
+remove allow ssh slot-channel
+remove allow ssh slot-channel <PORT>
+remove allow ssh slot-channel <IP>
+remove allow ssh slot-channel <MASK>
+remove allow telnet
+remove allow telnet any
+remove allow telnet any <IP>
+remove allow telnet any <MASK>
+remove allow telnet front-port
+remove allow telnet front-port <PORT>
+remove allow telnet front-port <IP>
+remove allow telnet front-port <MASK>
+remove allow telnet port-channel
+remove allow telnet port-channel <PORT>
+remove allow telnet port-channel <IP>
+remove allow telnet port-channel <MASK>
+remove allow telnet slot-channel
+remove allow telnet slot-channel <PORT>
+remove allow telnet slot-channel <IP>
+remove allow telnet slot-channel <MASK>
+remove deny
+remove deny any
+remove deny any any
+remove deny any any <IP>
+remove deny any any <MASK>
+remove deny any front-port
+remove deny any front-port <PORT>
+remove deny any front-port <IP>
+remove deny any front-port <MASK>
+remove deny any port-channel
+remove deny any port-channel <PORT>
+remove deny any port-channel <IP>
+remove deny any port-channel <MASK>
+remove deny any slot-channel
+remove deny any slot-channel <PORT>
+remove deny any slot-channel <IP>
+remove deny any slot-channel <MASK>
+remove deny http
+remove deny http any
+remove deny http any <IP>
+remove deny http any <MASK>
+remove deny http front-port
+remove deny http front-port <PORT>
+remove deny http front-port <IP>
+remove deny http front-port <MASK>
+remove deny http port-channel
+remove deny http port-channel <PORT>
+remove deny http port-channel <IP>
+remove deny http port-channel <MASK>
+remove deny http slot-channel
+remove deny http slot-channel <PORT>
+remove deny http slot-channel <IP>
+remove deny http slot-channel <MASK>
+remove deny snmp
+remove deny snmp any
+remove deny snmp any <IP>
+remove deny snmp any <MASK>
+remove deny snmp front-port
+remove deny snmp front-port <PORT>
+remove deny snmp front-port <IP>
+remove deny snmp front-port <MASK>
+remove deny snmp port-channel
+remove deny snmp port-channel <PORT>
+remove deny snmp port-channel <IP>
+remove deny snmp port-channel <MASK>
+remove deny snmp slot-channel
+remove deny snmp slot-channel <PORT>
+remove deny snmp slot-channel <IP>
+remove deny snmp slot-channel <MASK>
+remove deny ssh
+remove deny ssh any
+remove deny ssh any <IP>
+remove deny ssh any <MASK>
+remove deny ssh front-port
+remove deny ssh front-port <PORT>
+remove deny ssh front-port <IP>
+remove deny ssh front-port <MASK>
+remove deny ssh port-channel
+remove deny ssh port-channel <PORT>
+remove deny ssh port-channel <IP>
+remove deny ssh port-channel <MASK>
+remove deny ssh slot-channel
+remove deny ssh slot-channel <PORT>
+remove deny ssh slot-channel <IP>
+remove deny ssh slot-channel <MASK>
+remove deny telnet
+remove deny telnet any
+remove deny telnet any <IP>
+remove deny telnet any <MASK>
+remove deny telnet front-port
+remove deny telnet front-port <PORT>
+remove deny telnet front-port <IP>
+remove deny telnet front-port <MASK>
+remove deny telnet port-channel
+remove deny telnet port-channel <PORT>
+remove deny telnet port-channel <IP>
+remove deny telnet port-channel <MASK>
+remove deny telnet slot-channel
+remove deny telnet slot-channel <PORT>
+remove deny telnet slot-channel <IP>
+remove deny telnet slot-channel <MASK>
+remove from
+remove from <POS>
+top
+=========================================================
+VIEW: acl-mac-view
+=========================================================
+add
+add allow
+add allow any
+add allow any any
+add allow any any <MAC>
+add allow any front-port
+add allow any front-port <PORT>
+add allow any front-port <MAC>
+add allow any port-channel
+add allow any port-channel <PORT>
+add allow any port-channel <MAC>
+add allow any slot-channel
+add allow any slot-channel <PORT>
+add allow any slot-channel <MAC>
+add allow http
+add allow http any
+add allow http any <MAC>
+add allow http front-port
+add allow http front-port <PORT>
+add allow http front-port <MAC>
+add allow http port-channel
+add allow http port-channel <PORT>
+add allow http port-channel <MAC>
+add allow http slot-channel
+add allow http slot-channel <PORT>
+add allow http slot-channel <MAC>
+add allow snmp
+add allow snmp any
+add allow snmp any <MAC>
+add allow snmp front-port
+add allow snmp front-port <PORT>
+add allow snmp front-port <MAC>
+add allow snmp port-channel
+add allow snmp port-channel <PORT>
+add allow snmp port-channel <MAC>
+add allow snmp slot-channel
+add allow snmp slot-channel <PORT>
+add allow snmp slot-channel <MAC>
+add allow ssh
+add allow ssh any
+add allow ssh any <MAC>
+add allow ssh front-port
+add allow ssh front-port <PORT>
+add allow ssh front-port <MAC>
+add allow ssh port-channel
+add allow ssh port-channel <PORT>
+add allow ssh port-channel <MAC>
+add allow ssh slot-channel
+add allow ssh slot-channel <PORT>
+add allow ssh slot-channel <MAC>
+add allow telnet
+add allow telnet any
+add allow telnet any <MAC>
+add allow telnet front-port
+add allow telnet front-port <PORT>
+add allow telnet front-port <MAC>
+add allow telnet port-channel
+add allow telnet port-channel <PORT>
+add allow telnet port-channel <MAC>
+add allow telnet slot-channel
+add allow telnet slot-channel <PORT>
+add allow telnet slot-channel <MAC>
+add deny
+add deny any
+add deny any any
+add deny any any <MAC>
+add deny any front-port
+add deny any front-port <PORT>
+add deny any front-port <MAC>
+add deny any port-channel
+add deny any port-channel <PORT>
+add deny any port-channel <MAC>
+add deny any slot-channel
+add deny any slot-channel <PORT>
+add deny any slot-channel <MAC>
+add deny http
+add deny http any
+add deny http any <MAC>
+add deny http front-port
+add deny http front-port <PORT>
+add deny http front-port <MAC>
+add deny http port-channel
+add deny http port-channel <PORT>
+add deny http port-channel <MAC>
+add deny http slot-channel
+add deny http slot-channel <PORT>
+add deny http slot-channel <MAC>
+add deny snmp
+add deny snmp any
+add deny snmp any <MAC>
+add deny snmp front-port
+add deny snmp front-port <PORT>
+add deny snmp front-port <MAC>
+add deny snmp port-channel
+add deny snmp port-channel <PORT>
+add deny snmp port-channel <MAC>
+add deny snmp slot-channel
+add deny snmp slot-channel <PORT>
+add deny snmp slot-channel <MAC>
+add deny ssh
+add deny ssh any
+add deny ssh any <MAC>
+add deny ssh front-port
+add deny ssh front-port <PORT>
+add deny ssh front-port <MAC>
+add deny ssh port-channel
+add deny ssh port-channel <PORT>
+add deny ssh port-channel <MAC>
+add deny ssh slot-channel
+add deny ssh slot-channel <PORT>
+add deny ssh slot-channel <MAC>
+add deny telnet
+add deny telnet any
+add deny telnet any <MAC>
+add deny telnet front-port
+add deny telnet front-port <PORT>
+add deny telnet front-port <MAC>
+add deny telnet port-channel
+add deny telnet port-channel <PORT>
+add deny telnet port-channel <MAC>
+add deny telnet slot-channel
+add deny telnet slot-channel <PORT>
+add deny telnet slot-channel <MAC>
+do
+exit
+insert
+insert allow
+insert allow any
+insert allow any any
+insert allow any any <MAC>
+insert allow any any <POS>
+insert allow any front-port
+insert allow any front-port <PORT>
+insert allow any front-port <MAC>
+insert allow any front-port <POS>
+insert allow any port-channel
+insert allow any port-channel <PORT>
+insert allow any port-channel <MAC>
+insert allow any port-channel <POS>
+insert allow any slot-channel
+insert allow any slot-channel <PORT>
+insert allow any slot-channel <MAC>
+insert allow any slot-channel <POS>
+insert allow http
+insert allow http any
+insert allow http any <MAC>
+insert allow http any <POS>
+insert allow http front-port
+insert allow http front-port <PORT>
+insert allow http front-port <MAC>
+insert allow http front-port <POS>
+insert allow http port-channel
+insert allow http port-channel <PORT>
+insert allow http port-channel <MAC>
+insert allow http port-channel <POS>
+insert allow http slot-channel
+insert allow http slot-channel <PORT>
+insert allow http slot-channel <MAC>
+insert allow http slot-channel <POS>
+insert allow snmp
+insert allow snmp any
+insert allow snmp any <MAC>
+insert allow snmp any <POS>
+insert allow snmp front-port
+insert allow snmp front-port <PORT>
+insert allow snmp front-port <MAC>
+insert allow snmp front-port <POS>
+insert allow snmp port-channel
+insert allow snmp port-channel <PORT>
+insert allow snmp port-channel <MAC>
+insert allow snmp port-channel <POS>
+insert allow snmp slot-channel
+insert allow snmp slot-channel <PORT>
+insert allow snmp slot-channel <MAC>
+insert allow snmp slot-channel <POS>
+insert allow ssh
+insert allow ssh any
+insert allow ssh any <MAC>
+insert allow ssh any <POS>
+insert allow ssh front-port
+insert allow ssh front-port <PORT>
+insert allow ssh front-port <MAC>
+insert allow ssh front-port <POS>
+insert allow ssh port-channel
+insert allow ssh port-channel <PORT>
+insert allow ssh port-channel <MAC>
+insert allow ssh port-channel <POS>
+insert allow ssh slot-channel
+insert allow ssh slot-channel <PORT>
+insert allow ssh slot-channel <MAC>
+insert allow ssh slot-channel <POS>
+insert allow telnet
+insert allow telnet any
+insert allow telnet any <MAC>
+insert allow telnet any <POS>
+insert allow telnet front-port
+insert allow telnet front-port <PORT>
+insert allow telnet front-port <MAC>
+insert allow telnet front-port <POS>
+insert allow telnet port-channel
+insert allow telnet port-channel <PORT>
+insert allow telnet port-channel <MAC>
+insert allow telnet port-channel <POS>
+insert allow telnet slot-channel
+insert allow telnet slot-channel <PORT>
+insert allow telnet slot-channel <MAC>
+insert allow telnet slot-channel <POS>
+insert deny
+insert deny any
+insert deny any any
+insert deny any any <MAC>
+insert deny any any <POS>
+insert deny any front-port
+insert deny any front-port <PORT>
+insert deny any front-port <MAC>
+insert deny any front-port <POS>
+insert deny any port-channel
+insert deny any port-channel <PORT>
+insert deny any port-channel <MAC>
+insert deny any port-channel <POS>
+insert deny any slot-channel
+insert deny any slot-channel <PORT>
+insert deny any slot-channel <MAC>
+insert deny any slot-channel <POS>
+insert deny http
+insert deny http any
+insert deny http any <MAC>
+insert deny http any <POS>
+insert deny http front-port
+insert deny http front-port <PORT>
+insert deny http front-port <MAC>
+insert deny http front-port <POS>
+insert deny http port-channel
+insert deny http port-channel <PORT>
+insert deny http port-channel <MAC>
+insert deny http port-channel <POS>
+insert deny http slot-channel
+insert deny http slot-channel <PORT>
+insert deny http slot-channel <MAC>
+insert deny http slot-channel <POS>
+insert deny snmp
+insert deny snmp any
+insert deny snmp any <MAC>
+insert deny snmp any <POS>
+insert deny snmp front-port
+insert deny snmp front-port <PORT>
+insert deny snmp front-port <MAC>
+insert deny snmp front-port <POS>
+insert deny snmp port-channel
+insert deny snmp port-channel <PORT>
+insert deny snmp port-channel <MAC>
+insert deny snmp port-channel <POS>
+insert deny snmp slot-channel
+insert deny snmp slot-channel <PORT>
+insert deny snmp slot-channel <MAC>
+insert deny snmp slot-channel <POS>
+insert deny ssh
+insert deny ssh any
+insert deny ssh any <MAC>
+insert deny ssh any <POS>
+insert deny ssh front-port
+insert deny ssh front-port <PORT>
+insert deny ssh front-port <MAC>
+insert deny ssh front-port <POS>
+insert deny ssh port-channel
+insert deny ssh port-channel <PORT>
+insert deny ssh port-channel <MAC>
+insert deny ssh port-channel <POS>
+insert deny ssh slot-channel
+insert deny ssh slot-channel <PORT>
+insert deny ssh slot-channel <MAC>
+insert deny ssh slot-channel <POS>
+insert deny telnet
+insert deny telnet any
+insert deny telnet any <MAC>
+insert deny telnet any <POS>
+insert deny telnet front-port
+insert deny telnet front-port <PORT>
+insert deny telnet front-port <MAC>
+insert deny telnet front-port <POS>
+insert deny telnet port-channel
+insert deny telnet port-channel <PORT>
+insert deny telnet port-channel <MAC>
+insert deny telnet port-channel <POS>
+insert deny telnet slot-channel
+insert deny telnet slot-channel <PORT>
+insert deny telnet slot-channel <MAC>
+insert deny telnet slot-channel <POS>
+remove
+remove allow
+remove allow any
+remove allow any any
+remove allow any any <MAC>
+remove allow any any <POS>
+remove allow any front-port
+remove allow any front-port <PORT>
+remove allow any front-port <MAC>
+remove allow any front-port <POS>
+remove allow any port-channel
+remove allow any port-channel <PORT>
+remove allow any port-channel <MAC>
+remove allow any port-channel <POS>
+remove allow any slot-channel
+remove allow any slot-channel <PORT>
+remove allow any slot-channel <MAC>
+remove allow any slot-channel <POS>
+remove allow http
+remove allow http any
+remove allow http any <MAC>
+remove allow http any <POS>
+remove allow http front-port
+remove allow http front-port <PORT>
+remove allow http front-port <MAC>
+remove allow http front-port <POS>
+remove allow http port-channel
+remove allow http port-channel <PORT>
+remove allow http port-channel <MAC>
+remove allow http port-channel <POS>
+remove allow http slot-channel
+remove allow http slot-channel <PORT>
+remove allow http slot-channel <MAC>
+remove allow http slot-channel <POS>
+remove allow snmp
+remove allow snmp any
+remove allow snmp any <MAC>
+remove allow snmp any <POS>
+remove allow snmp front-port
+remove allow snmp front-port <PORT>
+remove allow snmp front-port <MAC>
+remove allow snmp front-port <POS>
+remove allow snmp port-channel
+remove allow snmp port-channel <PORT>
+remove allow snmp port-channel <MAC>
+remove allow snmp port-channel <POS>
+remove allow snmp slot-channel
+remove allow snmp slot-channel <PORT>
+remove allow snmp slot-channel <MAC>
+remove allow snmp slot-channel <POS>
+remove allow ssh
+remove allow ssh any
+remove allow ssh any <MAC>
+remove allow ssh any <POS>
+remove allow ssh front-port
+remove allow ssh front-port <PORT>
+remove allow ssh front-port <MAC>
+remove allow ssh front-port <POS>
+remove allow ssh port-channel
+remove allow ssh port-channel <PORT>
+remove allow ssh port-channel <MAC>
+remove allow ssh port-channel <POS>
+remove allow ssh slot-channel
+remove allow ssh slot-channel <PORT>
+remove allow ssh slot-channel <MAC>
+remove allow ssh slot-channel <POS>
+remove allow telnet
+remove allow telnet any
+remove allow telnet any <MAC>
+remove allow telnet any <POS>
+remove allow telnet front-port
+remove allow telnet front-port <PORT>
+remove allow telnet front-port <MAC>
+remove allow telnet front-port <POS>
+remove allow telnet port-channel
+remove allow telnet port-channel <PORT>
+remove allow telnet port-channel <MAC>
+remove allow telnet port-channel <POS>
+remove allow telnet slot-channel
+remove allow telnet slot-channel <PORT>
+remove allow telnet slot-channel <MAC>
+remove allow telnet slot-channel <POS>
+remove deny
+remove deny any
+remove deny any any
+remove deny any any <MAC>
+remove deny any front-port
+remove deny any front-port <PORT>
+remove deny any front-port <MAC>
+remove deny any port-channel
+remove deny any port-channel <PORT>
+remove deny any port-channel <MAC>
+remove deny any slot-channel
+remove deny any slot-channel <PORT>
+remove deny any slot-channel <MAC>
+remove deny http
+remove deny http any
+remove deny http any <MAC>
+remove deny http front-port
+remove deny http front-port <PORT>
+remove deny http front-port <MAC>
+remove deny http port-channel
+remove deny http port-channel <PORT>
+remove deny http port-channel <MAC>
+remove deny http slot-channel
+remove deny http slot-channel <PORT>
+remove deny snmp
+remove deny snmp any
+remove deny snmp any <MAC>
+remove deny snmp front-port
+remove deny snmp front-port <PORT>
+remove deny snmp front-port <MAC>
+remove deny snmp port-channel
+remove deny snmp port-channel <PORT>
+remove deny snmp port-channel <MAC>
+remove deny snmp slot-channel
+remove deny snmp slot-channel <PORT>
+remove deny snmp slot-channel <MAC>
+remove deny ssh
+remove deny ssh any
+remove deny ssh any <MAC>
+remove deny ssh front-port
+remove deny ssh front-port <PORT>
+remove deny ssh front-port <MAC>
+remove deny ssh port-channel
+remove deny ssh port-channel <PORT>
+remove deny ssh port-channel <MAC>
+remove deny ssh slot-channel
+remove deny ssh slot-channel <PORT>
+remove deny ssh slot-channel <MAC>
+remove deny telnet
+remove deny telnet any
+remove deny telnet any <MAC>
+remove deny telnet front-port
+remove deny telnet front-port <PORT>
+remove deny telnet front-port <MAC>
+remove deny telnet port-channel
+remove deny telnet port-channel <PORT>
+remove deny telnet port-channel <MAC>
+remove deny telnet slot-channel
+remove deny telnet slot-channel <PORT>
+remove deny telnet slot-channel <MAC>
+remove from
+remove from <POS>
+top
+=========================================================
+VIEW: acl-view
+=========================================================
+add
+add allow
+add allow any
+add allow any any
+add allow any front-port
+add allow any front-port <PORT>
+add allow any port-channel
+add allow any port-channel <PORT>
+add allow any slot-channel
+add allow any slot-channel <PORT>
+add allow http
+add allow http any
+add allow http front-port
+add allow http front-port <PORT>
+add allow http port-channel
+add allow http port-channel <PORT>
+add allow http slot-channel
+add allow http slot-channel <PORT>
+add allow snmp
+add allow snmp any
+add allow snmp front-port
+add allow snmp front-port <PORT>
+add allow snmp port-channel
+add allow snmp port-channel <PORT>
+add allow snmp slot-channel
+add allow snmp slot-channel <PORT>
+add allow ssh
+add allow ssh any
+add allow ssh front-port
+add allow ssh front-port <PORT>
+add allow ssh port-channel
+add allow ssh port-channel <PORT>
+add allow ssh slot-channel
+add allow ssh slot-channel <PORT>
+add allow telnet
+add allow telnet any
+add allow telnet front-port
+add allow telnet front-port <PORT>
+add allow telnet port-channel
+add allow telnet port-channel <PORT>
+add allow telnet slot-channel
+add allow telnet slot-channel <PORT>
+add deny
+add deny any
+add deny any any
+add deny any front-port
+add deny any front-port <PORT>
+add deny any port-channel
+add deny any port-channel <PORT>
+add deny any slot-channel
+add deny any slot-channel <PORT>
+add deny http
+add deny http any
+add deny http front-port
+add deny http front-port <PORT>
+add deny http port-channel
+add deny http port-channel <PORT>
+add deny http slot-channel
+add deny http slot-channel <PORT>
+add deny snmp
+add deny snmp any
+add deny snmp front-port
+add deny snmp front-port <PORT>
+add deny snmp port-channel
+add deny snmp port-channel <PORT>
+add deny snmp slot-channel
+add deny snmp slot-channel <PORT>
+add deny ssh
+add deny ssh any
+add deny ssh front-port
+add deny ssh front-port <PORT>
+add deny ssh port-channel
+add deny ssh port-channel <PORT>
+add deny ssh slot-channel
+add deny ssh slot-channel <PORT>
+add deny telnet
+add deny telnet any
+add deny telnet front-port
+add deny telnet front-port <PORT>
+add deny telnet port-channel
+add deny telnet port-channel <PORT>
+add deny telnet slot-channel
+add deny telnet slot-channel <PORT>
+do
+exit
+insert
+insert allow
+insert allow any
+insert allow any any
+insert allow any any <POS>
+insert allow any front-port
+insert allow any front-port <PORT>
+insert allow any front-port <POS>
+insert allow any port-channel
+insert allow any port-channel <PORT>
+insert allow any port-channel <POS>
+insert allow any slot-channel
+insert allow any slot-channel <PORT>
+insert allow any slot-channel <POS>
+insert allow http
+insert allow http any
+insert allow http any <POS>
+insert allow http front-port
+insert allow http front-port <PORT>
+insert allow http front-port <POS>
+insert allow http port-channel
+insert allow http port-channel <PORT>
+insert allow http port-channel <POS>
+insert allow http slot-channel
+insert allow http slot-channel <PORT>
+insert allow http slot-channel <POS>
+insert allow snmp
+insert allow snmp any
+insert allow snmp any <POS>
+insert allow snmp front-port
+insert allow snmp front-port <PORT>
+insert allow snmp front-port <POS>
+insert allow snmp port-channel
+insert allow snmp port-channel <PORT>
+insert allow snmp port-channel <POS>
+insert allow snmp slot-channel
+insert allow snmp slot-channel <PORT>
+insert allow snmp slot-channel <POS>
+insert allow ssh
+insert allow ssh any
+insert allow ssh any <POS>
+insert allow ssh front-port
+insert allow ssh front-port <PORT>
+insert allow ssh front-port <POS>
+insert allow ssh port-channel
+insert allow ssh port-channel <PORT>
+insert allow ssh port-channel <POS>
+insert allow ssh slot-channel
+insert allow ssh slot-channel <PORT>
+insert allow ssh slot-channel <POS>
+insert allow telnet
+insert allow telnet any
+insert allow telnet any <POS>
+insert allow telnet front-port
+insert allow telnet front-port <PORT>
+insert allow telnet front-port <POS>
+insert allow telnet port-channel
+insert allow telnet port-channel <PORT>
+insert allow telnet port-channel <POS>
+insert allow telnet slot-channel
+insert allow telnet slot-channel <PORT>
+insert allow telnet slot-channel <POS>
+insert deny
+insert deny any
+insert deny any any
+insert deny any any <POS>
+insert deny any front-port
+insert deny any front-port <PORT>
+insert deny any front-port <POS>
+insert deny any port-channel
+insert deny any port-channel <PORT>
+insert deny any port-channel <POS>
+insert deny any slot-channel
+insert deny any slot-channel <PORT>
+insert deny any slot-channel <POS>
+insert deny http
+insert deny http any
+insert deny http any <POS>
+insert deny http front-port
+insert deny http front-port <PORT>
+insert deny http front-port <POS>
+insert deny http port-channel
+insert deny http port-channel <PORT>
+insert deny http port-channel <POS>
+insert deny http slot-channel
+insert deny http slot-channel <PORT>
+insert deny http slot-channel <POS>
+insert deny snmp
+insert deny snmp any
+insert deny snmp any <POS>
+insert deny snmp front-port
+insert deny snmp front-port <PORT>
+insert deny snmp front-port <POS>
+insert deny snmp port-channel
+insert deny snmp port-channel <PORT>
+insert deny snmp port-channel <POS>
+insert deny snmp slot-channel
+insert deny snmp slot-channel <PORT>
+insert deny snmp slot-channel <POS>
+insert deny ssh
+insert deny ssh any
+insert deny ssh any <POS>
+insert deny ssh front-port
+insert deny ssh front-port <PORT>
+insert deny ssh front-port <POS>
+insert deny ssh port-channel
+insert deny ssh port-channel <PORT>
+insert deny ssh port-channel <POS>
+insert deny ssh slot-channel
+insert deny ssh slot-channel <PORT>
+insert deny ssh slot-channel <POS>
+insert deny telnet
+insert deny telnet any
+insert deny telnet any <POS>
+insert deny telnet front-port
+insert deny telnet front-port <PORT>
+insert deny telnet front-port <POS>
+insert deny telnet port-channel
+insert deny telnet port-channel <PORT>
+insert deny telnet port-channel <POS>
+insert deny telnet slot-channel
+insert deny telnet slot-channel <PORT>
+insert deny telnet slot-channel <POS>
+remove
+remove allow
+remove allow any
+remove allow any any
+remove allow any front-port
+remove allow any front-port <PORT>
+remove allow any port-channel
+remove allow any port-channel <PORT>
+remove allow any slot-channel
+remove allow any slot-channel <PORT>
+remove allow http
+remove allow http any
+remove allow http front-port
+remove allow http front-port <PORT>
+remove allow http port-channel
+remove allow http port-channel <PORT>
+remove allow http slot-channel
+remove allow http slot-channel <PORT>
+remove allow snmp
+remove allow snmp any
+remove allow snmp front-port
+remove allow snmp front-port <PORT>
+remove allow snmp port-channel
+remove allow snmp port-channel <PORT>
+remove allow snmp slot-channel
+remove allow snmp slot-channel <PORT>
+remove allow ssh
+remove allow ssh any
+remove allow ssh front-port
+remove allow ssh front-port <PORT>
+remove allow ssh port-channel
+remove allow ssh port-channel <PORT>
+remove allow ssh slot-channel
+remove allow ssh slot-channel <PORT>
+remove allow telnet
+remove allow telnet any
+remove allow telnet front-port
+remove allow telnet front-port <PORT>
+remove allow telnet port-channel
+remove allow telnet port-channel <PORT>
+remove allow telnet slot-channel
+remove allow telnet slot-channel <PORT>
+remove deny
+remove deny any
+remove deny any any
+remove deny any front-port
+remove deny any front-port <PORT>
+remove deny any port-channel
+remove deny any port-channel <PORT>
+remove deny any slot-channel
+remove deny any slot-channel <PORT>
+remove deny http
+remove deny http any
+remove deny http front-port
+remove deny http front-port <PORT>
+remove deny http port-channel
+remove deny http port-channel <PORT>
+remove deny http slot-channel
+remove deny http slot-channel <PORT>
+remove deny snmp
+remove deny snmp any
+remove deny snmp front-port
+remove deny snmp front-port <PORT>
+remove deny snmp port-channel
+remove deny snmp port-channel <PORT>
+remove deny snmp slot-channel
+remove deny snmp slot-channel <PORT>
+remove deny ssh
+remove deny ssh any
+remove deny ssh front-port
+remove deny ssh front-port <PORT>
+remove deny ssh port-channel
+remove deny ssh port-channel <PORT>
+remove deny ssh slot-channel
+remove deny ssh slot-channel <PORT>
+remove deny telnet
+remove deny telnet any
+remove deny telnet front-port
+remove deny telnet front-port <PORT>
+remove deny telnet port-channel
+remove deny telnet port-channel <PORT>
+remove deny telnet slot-channel
+remove deny telnet slot-channel <PORT>
+remove from
+remove from <POS>
+top
+=========================================================
+VIEW: address-table-view
+=========================================================
+description
+description <VALUE>
+discard-pid-unlearned-sa
+do
+exit
+name
+name <VALUE>
+no
+no description
+no discard-pid-unlearned-sa
+no remove-when-aged
+no s-vlan
+no s-vlan <svlan_value>
+no s-vlan use
+no s-vlan use c-vlan
+no s-vlan use s-vlan
+no s-vlan use pbits
+no s-vlan forwarding-mode
+no s-vlan discard-unknown
+remove-when-aged
+s-vlan
+s-vlan <svlan_value>
+s-vlan use
+s-vlan use c-vlan
+s-vlan use s-vlan
+s-vlan use pbits
+s-vlan forwarding-mode
+s-vlan forwarding-mode <forward_mode_value>
+s-vlan discard-unknown
+top
+=========================================================
+VIEW: configure-view
+aaa
+aaa accounting
+aaa accounting commands
+aaa accounting commands tacacs+
+aaa accounting start-stop
+aaa accounting start-stop tacacs+
+aaa authentication
+aaa authentication login
+aaa authentication login default
+aaa authentication login default <METHODS1>
+aaa authentication login default <METHODS2>
+aaa authentication login default <METHODS3>
+aaa authentication login list
+aaa authentication login list <LIST NAME>
+aaa authentication login list <METHODS1>
+aaa authentication login list <METHODS2>
+aaa authentication login list <METHODS3>
+alarm
+alarm <type_value>
+alarm in
+alarm in <in_value>
+alarm out
+alarm out <out_value>
+alarm severity
+alarm severity <severity_value>
+alarm ttl
+alarm ttl <ttl_value>
+alarm fan
+alarm fan max-rpm
+alarm fan max-rpm <max_rpm_value>
+alarm fan min-rpm
+alarm fan min-rpm <min_rpm_value>
+alarm fan in
+alarm fan in <in_value>
+alarm fan out
+alarm fan out <out_value>
+alarm fan severity
+alarm fan severity <severity_value>
+alarm fan ttl
+alarm fan ttl <ttl_value>
+alarm free-space
+alarm free-space level
+alarm free-space level <level_value>
+alarm free-space in
+alarm free-space in <in_value>
+alarm free-space out
+alarm free-space out <out_value>
+alarm free-space severity
+alarm free-space severity <severity_value>
+alarm free-space ttl
+alarm free-space ttl <ttl_value>
+alarm load-average
+alarm load-average level
+alarm load-average level <level_value>
+alarm load-average in
+alarm load-average in <in_value>
+alarm load-average out
+alarm load-average out <out_value>
+alarm load-average severity
+alarm load-average severity <severity_value>
+alarm load-average ttl
+alarm load-average ttl <ttl_value>
+alarm ont-high-rx-power
+alarm ont-high-rx-power level
+alarm ont-high-rx-power level <level_value>
+alarm ont-high-rx-power in
+alarm ont-high-rx-power in <in_value>
+alarm ont-high-rx-power out
+alarm ont-high-rx-power out <out_value>
+alarm ont-high-rx-power severity
+alarm ont-high-rx-power severity <severity_value>
+alarm ont-high-rx-power ttl
+alarm ont-high-rx-power ttl <ttl_value>
+alarm ont-low-rx-power
+alarm ont-low-rx-power level
+alarm ont-low-rx-power level <level_value>
+alarm ont-low-rx-power in
+alarm ont-low-rx-power in <in_value>
+alarm ont-low-rx-power out
+alarm ont-low-rx-power out <out_value>
+alarm ont-low-rx-power severity
+alarm ont-low-rx-power severity <severity_value>
+alarm ont-low-rx-power ttl
+alarm ont-low-rx-power ttl <ttl_value>
+alarm plc
+alarm plc <type_value>
+alarm plc <type_value> <in>
+alarm plc <type_value> <out>
+alarm plc <type_value> severity
+alarm plc <type_value> severity <severity_value>
+alarm plc <type_value> ttl
+alarm plc <type_value> ttl <ttl_value>
+alarm plc fan
+alarm plc fan max-rpm
+alarm plc fan max-rpm <max_rpm_value>
+alarm plc fan min-rpm
+alarm plc fan min-rpm <min_rpm_value>
+alarm plc fan in
+alarm plc fan in <in_value>
+alarm plc fan out
+alarm plc fan out <out_value>
+alarm plc fan severity
+alarm plc fan severity <severity_value>
+alarm plc fan ttl
+alarm plc fan ttl <ttl_value>
+alarm plc free-space
+alarm plc free-space level
+alarm plc free-space level <level_value>
+alarm plc free-space in
+alarm plc free-space in <in_value>
+alarm plc free-space out
+alarm plc free-space out <out_value>
+alarm plc free-space severity
+alarm plc free-space severity <severity_value>
+alarm plc free-space ttl
+alarm plc free-space ttl <ttl_value>
+alarm plc load-average
+alarm plc load-average level
+alarm plc load-average level <level_value>
+alarm plc load-average in
+alarm plc load-average in <in_value>
+alarm plc load-average out
+alarm plc load-average out <out_value>
+alarm plc load-average severity
+alarm plc load-average severity <severity_value>
+alarm plc load-average ttl
+alarm plc load-average ttl <ttl_value>
+alarm plc ont-high-rx-power
+alarm plc ont-high-rx-power level
+alarm plc ont-high-rx-power level <level_value>
+alarm plc ont-high-rx-power in
+alarm plc ont-high-rx-power in <in_value>
+alarm plc ont-high-rx-power out
+alarm plc ont-high-rx-power out <out_value>
+alarm plc ont-high-rx-power severity
+alarm plc ont-high-rx-power severity <severity_value>
+alarm plc ont-high-rx-power ttl
+alarm plc ont-high-rx-power ttl <ttl_value>
+alarm plc ont-low-rx-power
+alarm plc ont-low-rx-power level
+alarm plc ont-low-rx-power level <level_value>
+alarm plc ont-low-rx-power in
+alarm plc ont-low-rx-power in <in_value>
+alarm plc ont-low-rx-power out
+alarm plc ont-low-rx-power out <out_value>
+alarm plc ont-low-rx-power severity
+alarm plc ont-low-rx-power severity <severity_value>
+alarm plc ont-low-rx-power ttl
+alarm plc ont-low-rx-power ttl <ttl_value>
+alarm plc ram
+alarm plc ram free-ram
+alarm plc ram free-ram <ram_value>
+alarm plc ram in
+alarm plc ram in <in_value>
+alarm plc ram out
+alarm plc ram out <out_value>
+alarm plc ram severity
+alarm plc ram severity <severity_value>
+alarm plc ram ttl
+alarm plc ram ttl <ttl_value>
+alarm plc temperature
+alarm plc temperature sensor1
+alarm plc temperature sensor1 <level1_value>
+alarm plc temperature sensor2
+alarm plc temperature sensor2 <level2_value>
+alarm plc temperature in
+alarm plc temperature in <in_value>
+alarm plc temperature out
+alarm plc temperature out <out_value>
+alarm plc temperature severity
+alarm plc temperature severity <severity_value>
+alarm plc temperature ttl
+alarm plc temperature ttl <ttl_value>
+alarm pp
+alarm pp <type_value>
+alarm pp in
+alarm pp in <in_value>
+alarm pp out
+alarm pp out <out_value>
+alarm pp temperature
+alarm pp temperature cpu
+alarm pp temperature cpu <levelcpu_value>
+alarm pp temperature switch
+alarm pp temperature switch <levelswitch_value>
+alarm pp temperature sfp
+alarm pp temperature sfp <levelsfp_value>
+alarm ram
+alarm ram free-ram
+alarm ram free-ram <ram_value>
+alarm ram in
+alarm ram in <in_value>
+alarm ram out
+alarm ram out <out_value>
+alarm ram severity
+alarm ram severity <severity_value>
+alarm ram ttl
+alarm ram ttl <ttl_value>
+alarm temperature
+alarm temperature sensor1
+alarm temperature sensor1 <level1_value>
+alarm temperature sensor2
+alarm temperature sensor2 <level2_value>
+alarm temperature in
+alarm temperature in <in_value>
+alarm temperature out
+alarm temperature out <out_value>
+alarm temperature severity
+alarm temperature severity <severity_value>
+alarm temperature ttl
+alarm temperature ttl <ttl_value>
+alarm temperature pp4x
+alarm temperature pp4x cpu
+alarm temperature pp4x cpu <levelcpu_value>
+alarm temperature pp4x switch
+alarm temperature pp4x switch <levelswitch_value>
+alarm temperature pp4x sfp
+alarm temperature pp4x sfp <levelsfp_value>
+auto-reconfigure
+auto-reconfigure interface
+auto-reconfigure interface gpon-port
+auto-reconfigure interface ont
+auto-reconfigure olt
+backup
+backup onchange
+backup ontimer
+backup ontimer-period
+backup ontimer-period <BACKUP_INTERVAL>
+backup path
+backup path <PATH>
+backup-interface
+backup-interface mac-duplicate
+backup-interface mac-duplicate <COUNT>
+backup-interface mac-per-second
+backup-interface mac-per-second <COUNT>
+backup-interface preemption
+cli
+cli confirmation
+cli confirmation timer
+cli confirmation timer <TIME_MIN>
+cli session-timeout
+cli session-timeout <timeout>
+clock
+clock summer-time
+clock summer-time date
+clock summer-time date zone
+clock summer-time date zone <NAME>
+clock summer-time date start-day
+clock summer-time date start-day <DAY_ST>
+clock summer-time date start-month
+clock summer-time date start-month <MONTH_ST>
+clock summer-time date start-year
+clock summer-time date start-year <YEAR_ST>
+clock summer-time date start-time
+clock summer-time date start-time <TIME_ST>
+clock summer-time date end-day
+clock summer-time date end-day <DAY_EN>
+clock summer-time date end-month
+clock summer-time date end-month <MONTH_EN>
+clock summer-time date end-year
+clock summer-time date end-year <YEAR_EN>
+clock summer-time date end-time
+clock summer-time date end-time <TIME_EN>
+clock summer-time date hours
+clock summer-time date hours <HOURS>
+clock summer-time date minutes
+clock summer-time date minutes <MINUTES>
+clock summer-time recurring
+clock summer-time recurring zone
+clock summer-time recurring zone <NAME>
+clock summer-time recurring start-week
+clock summer-time recurring start-week <SPEC_ST>
+clock summer-time recurring start-day
+clock summer-time recurring start-day <DAY_ST>
+clock summer-time recurring start-month
+clock summer-time recurring start-month <MONTH_ST>
+clock summer-time recurring start-time
+clock summer-time recurring start-time <TIME_ST>
+clock summer-time recurring end-week
+clock summer-time recurring end-week <SPEC_EN>
+clock summer-time recurring end-day
+clock summer-time recurring end-day <DAY_EN>
+clock summer-time recurring end-month
+clock summer-time recurring end-month <MONTH_EN>
+clock summer-time recurring end-time
+clock summer-time recurring end-time <TIME_EN>
+clock summer-time recurring hours
+clock summer-time recurring hours <HOURS>
+clock summer-time recurring minutes
+clock summer-time recurring minutes <MINUTES>
+clock timezone
+clock timezone hours
+clock timezone hours <HOURS>
+clock timezone minutes
+clock timezone minutes <MINUTES>
+cntrset
+cntrset all
+cntrset all <SET>
+cntrset all <VLAN>
+cntrset all <QUEUE>
+cntrset all <DROP PRECEDENCE>
+cntrset all
+cntrset all slot
+cntrset all slot <RANGE>
+cntrset all pp
+cntrset all pp <UNIT>
+cntrset cpu
+cntrset cpu <UNIT>
+cntrset cpu <SET>
+cntrset cpu <VLAN>
+cntrset cpu <QUEUE>
+cntrset cpu <DROP PRECEDENCE>
+cntrset front-port
+cntrset front-port <NUM>
+cntrset front-port <SET>
+cntrset front-port <VLAN>
+cntrset front-port <QUEUE>
+cntrset front-port <DROP PRECEDENCE>
+cntrset plc-front-port
+cntrset plc-front-port <NUM>
+cntrset plc-front-port <set>
+cntrset plc-front-port <vlan>
+cntrset plc-front-port <pq>
+cntrset plc-front-port <dp>
+cntrset plc-pon-port
+cntrset plc-pon-port <NUM>
+cntrset plc-pon-port <set>
+cntrset plc-pon-port <vlan>
+cntrset plc-pon-port <pq>
+cntrset plc-pon-port <dp>
+cntrset plc-slot-port
+cntrset plc-slot-port <NUM>
+cntrset plc-slot-port <set>
+cntrset plc-slot-port <vlan>
+cntrset plc-slot-port <pq>
+cntrset plc-slot-port <dp>
+cntrset slot-port
+cntrset slot-port <NUM>
+cntrset slot-port <SET>
+cntrset slot-port <VLAN>
+cntrset slot-port <QUEUE>
+cntrset slot-port <DROP PRECEDENCE>
+cntrset stack-port
+cntrset stack-port <NUM>
+cntrset stack-port <SET>
+cntrset stack-port <VLAN>
+cntrset stack-port <QUEUE>
+cntrset stack-port <DROP PRECEDENCE>
+dhclient
+dhclient lease-time
+dhclient lease-time <TIME>
+dhclient reboot
+dhclient reboot <TIME>
+dhclient retry
+dhclient retry <TIME>
+dhclient select-timeout
+dhclient select-timeout <TIME>
+dhclient timeout
+dhclient timeout <TIMEOUT>
+do
+exit
+fan
+fan min-speed
+fan min-speed <SPEED>
+fan speed
+fan speed <SPEED>
+fan speed-level
+fan speed-level <LEVEL>
+fan speed-level <SPEED>
+fan speed-table
+fan speed-table <SPEED_0>
+fan speed-table <SPEED_1>
+fan speed-table <SPEED_2>
+fan speed-table <SPEED_3>
+fan speed-table <SPEED_4>
+fan speed-table <SPEED_5>
+fan speed-table <SPEED_6>
+fan speed-table <SPEED_7>
+fan speed-table <SPEED_8>
+gpon
+gpon network
+gpon network cvlan-ethertype
+gpon network cvlan-ethertype <ce>
+gpon network svlan-ethertype
+gpon network svlan-ethertype <se>
+gpon olt
+gpon olt authentication
+gpon olt authentication <mode>
+gpon olt block-duplicated-mac
+gpon olt broadcast-gem-port
+gpon olt broadcast-gem-port <port>
+gpon olt dhcpra-shaper
+gpon olt dhcpra-shaper <shaper_value>
+gpon olt encryption
+gpon olt encryption key-update
+gpon olt encryption key-update <interval>
+gpon olt model
+gpon olt model <id>
+gpon olt multicast-gem-port
+gpon olt multicast-gem-port <port>
+gpon olt ont-block-time
+gpon olt ont-block-time <block_time>
+gpon olt ont-sn-format
+gpon olt ont-sn-format <fmt>
+gpon olt unactivated-timout
+gpon olt unactivated-timout <unactivated-timout>
+hostname
+hostname <NAME>
+interface
+interface front-port
+interface front-port <RANGE>
+interface gpon-port
+interface gpon-port <id>
+interface ont
+interface ont <id>
+interface plc-front-port
+interface plc-front-port <IF_NUMBER>
+interface plc-mgmt-pon-port
+interface plc-mgmt-pon-port <RANGE>
+interface plc-pon-port
+interface plc-pon-port <IF_NUMBER>
+interface plc-slot-channel
+interface plc-slot-channel <IF_NUMBER>
+interface plc-slot-port
+interface plc-slot-port <IF_NUMBER>
+interface port-channel
+interface port-channel <RANGE>
+interface slot-channel
+interface slot-channel <RANGE>
+interface slot-port
+interface slot-port <RANGE>
+interface stack-port
+interface stack-port <RANGE>
+ip
+ip arp
+ip arp inspection
+ip arp inspection enable
+ip arp inspection static-table
+ip arp inspection static-table <IP>
+ip arp inspection static-table <IP-ADDRESS>
+ip arp inspection static-table <MAC>
+ip arp inspection static-table <MAC-ADDRESS>
+ip arp inspection static-table <VLAN>
+ip arp inspection static-table <VID>
+ip igmp
+ip igmp proxy
+ip igmp proxy report
+ip igmp proxy report
+ip igmp proxy report enable
+ip igmp proxy report range
+ip igmp proxy report range <START RANGE>
+ip igmp proxy report range <END RANGE>
+ip igmp proxy report range <from>
+ip igmp proxy report range <FROM VLAN>
+ip igmp proxy report range <to>
+ip igmp proxy report range <TO VLAN>
+ip igmp proxy report pp4x
+ip igmp proxy report pp4x enable
+ip igmp proxy report pp4x range
+ip igmp proxy report pp4x range <START RANGE>
+ip igmp proxy report pp4x range <END RANGE>
+ip igmp proxy report pp4x range <from>
+ip igmp proxy report pp4x range <FROM VLAN>
+ip igmp proxy report pp4x range <to>
+ip igmp proxy report pp4x range <TO VLAN>
+ip igmp proxy report slot
+ip igmp proxy report slot <SLOT_RANGE>
+ip igmp proxy report slot
+ip igmp proxy report slot enable
+ip igmp proxy report slot range
+ip igmp proxy report slot range <START RANGE>
+ip igmp proxy report slot range <END RANGE>
+ip igmp proxy report slot range <from>
+ip igmp proxy report slot range <FROM VLAN>
+ip igmp proxy report slot range <to>
+ip igmp proxy report slot range <TO VLAN>
+ip igmp snooping
+ip igmp snooping enable
+ip igmp snooping pp4x
+ip igmp snooping pp4x enable
+ip igmp snooping slot
+ip igmp snooping slot <SLOT_RANGE>
+ip igmp snooping slot enable
+ip igmp unregistered
+ip igmp unregistered ip4-mc
+ip igmp unregistered ip4-mc drop
+ip igmp unregistered ip4-mc flood
+ip route
+ip route allow
+ip route allow <A.B.C.D/n>
+ip route allow <GATEWAY>
+ip route allow <METRIC>
+ip route reject
+ip route reject <A.B.C.D/n>
+ip routing
+ip snmp
+ip snmp agent
+ip snmp agent community
+ip snmp agent community readonly
+ip snmp agent community readonly <community>
+ip snmp agent community readwrite
+ip snmp agent community readwrite <community>
+ip snmp agent community trap
+ip snmp agent community trap <community>
+ip snmp agent enable
+ip snmp agent engine
+ip snmp agent engine id
+ip snmp agent engine id <engineid>
+ip snmp agent engine id <forced>
+ip snmp agent system
+ip snmp agent system name
+ip snmp agent system name <name>
+ip snmp agent transport
+ip snmp agent transport tcp
+ip snmp agent transport tcp <port>
+ip snmp agent transport udp
+ip snmp agent transport udp <port>
+ip snmp agent traps
+ip snmp agent traps informs
+ip snmp agent traps informs <ip_address>
+ip snmp agent traps trapsv1
+ip snmp agent traps trapsv1 <ip_address>
+ip snmp agent traps trapsv2
+ip snmp agent traps trapsv2 <ip_address>
+ip snmp agent user
+ip snmp agent user add
+ip snmp agent user add <user_name>
+ip snmp agent user add <user_passwd>
+ip snmp agent user add <user_access>
+ip snmp agent user delete
+ip snmp agent user delete <user_name>
+ip snmp agent user private
+ip snmp agent user private add
+ip snmp agent user private add <user_name>
+ip snmp agent user private add <user_passwd>
+ip snmp agent user private add <user_access>
+ip sntp
+ip sntp client
+ip sntp poll-period
+ip sntp poll-period <period>
+ip sntp server
+ip sntp server <hostname>
+ip ssh
+ip ssh server
+ip telnet
+ip telnet port
+ip telnet port <PORT>
+ip telnet server
+isolation
+isolation group
+isolation group <GROUP RANGE>
+journal
+journal filter
+journal filter dying-gasp
+journal filter ont-state
+journal keep-time
+journal keep-time <TIME>
+journal max-size
+journal max-size <SIZE>
+lacp
+lacp system-priority
+lacp system-priority <PRIORITY>
+line
+line console
+line ssh
+line telnet
+lldp
+lldp enable
+lldp hold-multiplier
+lldp hold-multiplier <hold>
+lldp lldpdu
+lldp lldpdu <mode>
+lldp reinit
+lldp reinit <reinit>
+lldp timer
+lldp timer <timer>
+lldp tx-delay
+lldp tx-delay <txdelay>
+load-average
+load-average <time>
+logging
+logging builtin-filter
+logging builtin-filter <NAME>
+logging console
+logging console <SEVERITY>
+logging file
+logging file <FILE>
+logging file <SEVERITY>
+logging file-size
+logging file-size <SIZE>
+logging filter
+logging filter <NAME>
+logging host
+logging host <HOST>
+logging host <KEY_WORD_PORT>
+logging host <PORT>
+logging host <KEY_WORD_TRANSPORT>
+logging host <TRANSPORT>
+logging host <SEVERITY>
+logging max-files
+logging max-files <file_num>
+logging monitor
+logging monitor <SEVERITY>
+logging storage
+logging storage persistent
+mac
+mac address-table
+mac address-table aging-time
+mac address-table aging-time <AGING TIME>
+mac address-table learning
+mac address-table learning interface
+mac address-table learning interface front-port
+mac address-table learning interface front-port <PORT RANGE>
+mac address-table learning interface port-channel
+mac address-table learning interface port-channel <PORT RANGE>
+mac address-table learning interface slot-channel
+mac address-table learning interface slot-channel <PORT RANGE>
+mac address-table learning vlan
+mac address-table learning vlan <VLAN RANGE>
+management
+management access-list
+management access-list clear
+management access-list default
+management access-list default allow
+management access-list default deny
+management access-list-any
+management access-list-ip
+management access-list-mac
+management cos
+management cos <COS>
+management dscp
+management dscp <DSCP>
+management gateway
+management gateway <GATEWAY>
+management ip
+management ip <IP ADDRESS>
+management ip <MASK>
+management vlan
+management vlan <VLAN>
+mirror
+mirror add-tag
+mirror rx
+mirror rx added-tag-config
+mirror rx added-tag-config <VLAN-STR>
+mirror rx added-tag-config <VLAN>
+mirror rx added-tag-config <USER-PRIO-STR>
+mirror rx added-tag-config <USER-PRIO>
+mirror rx analyzer
+mirror rx analyzer front-port
+mirror rx analyzer front-port <PORT>
+mirror rx analyzer plc-front-port
+mirror rx analyzer plc-front-port <RANGE>
+mirror rx analyzer plc-pon-port
+mirror rx analyzer plc-pon-port <RANGE>
+mirror rx analyzer plc-slot-channel
+mirror rx analyzer plc-slot-channel <RANGE>
+mirror rx analyzer port-channel
+mirror rx analyzer port-channel <PORT>
+mirror rx analyzer slot-channel
+mirror rx analyzer slot-channel <PORT>
+mirror rx interface
+mirror rx interface front-port
+mirror rx interface front-port <RANGE>
+mirror rx interface plc-front-port
+mirror rx interface plc-front-port <RANGE>
+mirror rx interface plc-pon-port
+mirror rx interface plc-pon-port <RANGE>
+mirror rx interface plc-slot-channel
+mirror rx interface plc-slot-channel <RANGE>
+mirror rx interface port-channel
+mirror rx interface port-channel <RANGE>
+mirror rx interface slot-channel
+mirror rx interface slot-channel <RANGE>
+mirror rx vlan
+mirror rx vlan <RANGE>
+mirror tx
+mirror tx added-tag-config
+mirror tx added-tag-config <VLAN-STR>
+mirror tx added-tag-config <VLAN>
+mirror tx added-tag-config <USER-PRIO-STR>
+mirror tx added-tag-config <USER-PRIO>
+mirror tx analyzer
+mirror tx analyzer front-port
+mirror tx analyzer front-port <PORT>
+mirror tx analyzer plc-front-port
+mirror tx analyzer plc-front-port <RANGE>
+mirror tx analyzer plc-pon-port
+mirror tx analyzer plc-pon-port <RANGE>
+mirror tx analyzer plc-slot-channel
+mirror tx analyzer plc-slot-channel <RANGE>
+mirror tx analyzer port-channel
+mirror tx analyzer port-channel <PORT>
+mirror tx analyzer slot-channel
+mirror tx analyzer slot-channel <PORT>
+mirror tx interface
+mirror tx interface front-port
+mirror tx interface front-port <RANGE>
+mirror tx interface plc-front-port
+mirror tx interface plc-front-port <RANGE>
+mirror tx interface plc-pon-port
+mirror tx interface plc-pon-port <RANGE>
+mirror tx interface plc-slot-channel
+mirror tx interface plc-slot-channel <RANGE>
+mirror tx interface port-channel
+mirror tx interface port-channel <RANGE>
+mirror tx interface slot-channel
+mirror tx interface slot-channel <RANGE>
+no
+no aaa
+no aaa accounting
+no aaa accounting commands
+no aaa accounting commands tacacs+
+no aaa accounting start-stop
+no aaa accounting start-stop tacacs+
+no aaa authentication
+no aaa authentication login
+no aaa authentication login default
+no aaa authentication login list
+no aaa authentication login list <LIST NAME>
+no alarm
+no alarm <type_value>
+no alarm <in>
+no alarm <out>
+no alarm severity
+no alarm ttl
+no alarm fan
+no alarm fan max-rpm
+no alarm fan min-rpm
+no alarm fan <in>
+no alarm fan <out>
+no alarm fan severity
+no alarm fan ttl
+no alarm free-space
+no alarm free-space level
+no alarm free-space <in>
+no alarm free-space <out>
+no alarm free-space severity
+no alarm free-space ttl
+no alarm load-average
+no alarm load-average level
+no alarm load-average <in>
+no alarm load-average <out>
+no alarm load-average severity
+no alarm load-average ttl
+no alarm ont-high-rx-power
+no alarm ont-high-rx-power level
+no alarm ont-high-rx-power <in>
+no alarm ont-high-rx-power <out>
+no alarm ont-high-rx-power severity
+no alarm ont-high-rx-power ttl
+no alarm ont-low-rx-power
+no alarm ont-low-rx-power level
+no alarm ont-low-rx-power <in>
+no alarm ont-low-rx-power <out>
+no alarm ont-low-rx-power severity
+no alarm ont-low-rx-power ttl
+no alarm plc
+no alarm plc <type_value>
+no alarm plc <in>
+no alarm plc <out>
+no alarm plc severity
+no alarm plc ttl
+no alarm plc fan
+no alarm plc fan max-rpm
+no alarm plc fan min-rpm
+no alarm plc fan <in>
+no alarm plc fan <out>
+no alarm plc fan severity
+no alarm plc fan ttl
+no alarm plc free-space
+no alarm plc free-space level
+no alarm plc free-space <in>
+no alarm plc free-space <out>
+no alarm plc free-space severity
+no alarm plc free-space ttl
+no alarm plc load-average
+no alarm plc load-average level
+no alarm plc load-average <in>
+no alarm plc load-average <out>
+no alarm plc load-average severity
+no alarm plc load-average ttl
+no alarm plc ont-high-rx-power
+no alarm plc ont-high-rx-power level
+no alarm plc ont-high-rx-power <in>
+no alarm plc ont-high-rx-power <out>
+no alarm plc ont-high-rx-power severity
+no alarm plc ont-high-rx-power ttl
+no alarm plc ont-low-rx-power
+no alarm plc ont-low-rx-power level
+no alarm plc ont-low-rx-power <in>
+no alarm plc ont-low-rx-power <out>
+no alarm plc ont-low-rx-power severity
+no alarm plc ont-low-rx-power ttl
+no alarm plc ram
+no alarm plc ram free-ram
+no alarm plc ram <in>
+no alarm plc ram <out>
+no alarm plc ram severity
+no alarm plc ram ttl
+no alarm plc temperature
+no alarm plc temperature sensor1
+no alarm plc temperature sensor2
+no alarm plc temperature <in>
+no alarm plc temperature <out>
+no alarm plc temperature severity
+no alarm plc temperature ttl
+no alarm pp
+no alarm pp <type_value>
+no alarm pp in
+no alarm pp out
+no alarm ram
+no alarm ram free-ram
+no alarm ram <in>
+no alarm ram <out>
+no alarm ram severity
+no alarm ram ttl
+no alarm temperature
+no alarm temperature sensor1
+no alarm temperature sensor2
+no alarm temperature <in>
+no alarm temperature <out>
+no alarm temperature severity
+no alarm temperature ttl
+no auto-reconfigure
+no auto-reconfigure interface
+no auto-reconfigure interface gpon-port
+no auto-reconfigure interface ont
+no auto-reconfigure olt
+no backup
+no backup onchange
+no backup ontimer
+no backup ontimer-period
+no backup path
+no backup-interface
+no backup-interface preemption
+no cli confirmation
+no cli confirmation timer
+no clock
+no clock summer-time
+no clock timezone
+no dhclient
+no dhclient lease-time
+no dhclient reboot
+no dhclient retry
+no dhclient select-timeout
+no dhclient timeout
+no fan
+no fan min-speed
+no fan speed
+no fan speed-table
+no gpon
+no gpon network
+no gpon network cvlan-ethertype
+no gpon network svlan-ethertype
+no gpon olt
+no gpon olt authentication
+no gpon olt block-duplicated-mac
+no gpon olt broadcast-gem-port
+no gpon olt dhcpra-shaper
+no gpon olt encryption
+no gpon olt encryption key-update
+no gpon olt model
+no gpon olt multicast-gem-port
+no gpon olt ont-block-time
+no gpon olt ont-sn-format
+no gpon olt unactivated-timout
+no interface
+no interface ont
+no interface ont <id>
+no interface port-channel
+no interface port-channel <GROUP NUMBER>
+no ip
+no ip arp
+no ip arp inspection
+no ip arp inspection enable
+no ip arp inspection static-table
+no ip arp inspection static-table <IP>
+no ip arp inspection static-table <IP-ADDRESS>
+no ip igmp
+no ip igmp proxy
+no ip igmp proxy report
+no ip igmp proxy report
+no ip igmp proxy report enable
+no ip igmp proxy report range
+no ip igmp proxy report range <START RANGE>
+no ip igmp proxy report range <END RANGE>
+no ip igmp proxy report range <from>
+no ip igmp proxy report range <FROM VLAN>
+no ip igmp proxy report range <to>
+no ip igmp proxy report range <TO VLAN>
+no ip igmp proxy report pp4x
+no ip igmp proxy report pp4x enable
+no ip igmp proxy report pp4x range
+no ip igmp proxy report pp4x range <INDEX>
+no ip igmp proxy report slot
+no ip igmp proxy report slot <SLOT_RANGE>
+no ip igmp proxy report slot
+no ip igmp proxy report slot enable
+no ip igmp proxy report slot range
+no ip igmp proxy report slot range <INDEX>
+no ip igmp snooping
+no ip igmp snooping enable
+no ip igmp snooping pp4x
+no ip igmp snooping pp4x enable
+no ip igmp snooping slot
+no ip igmp snooping slot <SLOT_RANGE>
+no ip igmp snooping slot enable
+no ip route
+no ip route allow
+no ip route allow <A.B.C.D/n>
+no ip route allow <GATEWAY>
+no ip route reject
+no ip route reject <A.B.C.D/n>
+no ip routing
+no ip snmp
+no ip snmp agent
+no ip snmp agent community
+no ip snmp agent community readonly
+no ip snmp agent community readwrite
+no ip snmp agent community trap
+no ip snmp agent enable
+no ip snmp agent engine
+no ip snmp agent engine id
+no ip snmp agent system
+no ip snmp agent system name
+no ip snmp agent transport
+no ip snmp agent transport tcp
+no ip snmp agent transport udp
+no ip snmp agent traps
+no ip snmp agent traps informs
+no ip snmp agent traps informs <ip_address>
+no ip snmp agent traps trapsv1
+no ip snmp agent traps trapsv1 <ip_address>
+no ip snmp agent traps trapsv2
+no ip snmp agent traps trapsv2 <ip_address>
+no ip snmp manager
+no ip sntp
+no ip sntp client
+no ip sntp poll-period
+no ip sntp server
+no ip sntp server <hostname>
+no ip ssh
+no ip ssh server
+no ip telnet
+no ip telnet port
+no ip telnet server
+no journal
+no journal filter
+no journal filter dying-gasp
+no journal filter ont-state
+no journal keep-time
+no journal max-size
+no lacp
+no lacp system-priority
+no lldp
+no lldp enable
+no lldp hold-multiplier
+no lldp lldpdu
+no lldp reinit
+no lldp timer
+no lldp tx-delay
+no logging
+no logging console
+no logging file
+no logging file <FILE>
+no logging file-size
+no logging filter
+no logging filter <source>
+no logging host
+no logging host <HOST>
+no logging host <KEY_WORD_PORT>
+no logging host <PORT>
+no logging max-files
+no logging monitor
+no logging storage
+no logging storage persistent
+no mac
+no mac address-table
+no mac address-table aging-time
+no mac address-table learning
+no mac address-table learning interface
+no mac address-table learning interface front-port
+no mac address-table learning interface front-port <PORT RANGE>
+no mac address-table learning interface port-channel
+no mac address-table learning interface port-channel <PORT RANGE>
+no mac address-table learning interface slot-channel
+no mac address-table learning interface slot-channel <PORT RANGE>
+no mac address-table learning vlan
+no mac address-table learning vlan <VLAN RANGE>
+no management
+no management gateway
+no management ip
+no management vlan
+no mirror
+no mirror add-tag
+no mirror all
+no mirror rx
+no mirror rx analyzer
+no mirror rx analyzer plc
+no mirror rx analyzer plc <RANGE>
+no mirror rx interface
+no mirror rx interface front-port
+no mirror rx interface front-port <RANGE>
+no mirror rx interface plc-front-port
+no mirror rx interface plc-front-port <RANGE>
+no mirror rx interface plc-pon-port
+no mirror rx interface plc-pon-port <RANGE>
+no mirror rx interface plc-slot-channel
+no mirror rx interface plc-slot-channel <RANGE>
+no mirror rx interface port-channel
+no mirror rx interface port-channel <RANGE>
+no mirror rx interface slot-channel
+no mirror rx interface slot-channel <RANGE>
+no mirror rx vlan
+no mirror rx vlan <RANGE>
+no mirror tx
+no mirror tx analyzer
+no mirror tx analyzer plc
+no mirror tx analyzer plc <RANGE>
+no mirror tx interface
+no mirror tx interface front-port
+no mirror tx interface front-port <RANGE>
+no mirror tx interface plc-front-port
+no mirror tx interface plc-front-port <RANGE>
+no mirror tx interface plc-pon-port
+no mirror tx interface plc-pon-port <RANGE>
+no mirror tx interface plc-slot-channel
+no mirror tx interface plc-slot-channel <RANGE>
+no mirror tx interface port-channel
+no mirror tx interface port-channel <RANGE>
+no mirror tx interface slot-channel
+no mirror tx interface slot-channel <RANGE>
+no privilege
+no privilege <level>
+no privilege view-switch
+no privilege view-alarm
+no privilege view-system
+no privilege view-general
+no privilege view-gpon
+no privilege view-ont
+no privilege view-ont-profile
+no privilege view-switch-interfaces
+no privilege config-switch
+no privilege config-alarm
+no privilege config-system
+no privilege config-general
+no privilege config-gpon
+no privilege config-ont
+no privilege ont-operation
+no privilege config-ont-profile
+no privilege config-switch-interfaces
+no profile
+no profile address-table
+no profile address-table <name>
+no profile cross-connect
+no profile cross-connect <name>
+no profile dba
+no profile dba <name>
+no profile dhcp-ra
+no profile dhcp-ra <name>
+no profile management
+no profile management <name>
+no profile ports
+no profile ports <name>
+no profile pppoe-ia
+no profile pppoe-ia <name>
+no profile scripting
+no profile scripting <name>
+no profile shaping
+no profile shaping <name>
+no profile vlan
+no profile vlan <name>
+no qos
+no qos cpu
+no qos cpu input-rate
+no qos cpu input-rate slot
+no qos cpu input-rate slot <range>
+no qos cpu replication-swap-queues
+no qos cpu replication-swap-queues slot
+no qos cpu replication-swap-queues slot <range>
+no qos cpu wrr
+no qos cpu wrr enable
+no qos cpu wrr enable slot
+no qos cpu wrr enable slot <range>
+no qos downstream-qinq-prio
+no qos downstream-qinq-prio enable
+no qos downstream-qinq-prio enable slot
+no qos downstream-qinq-prio enable slot <range>
+no qos map
+no qos map 0
+no qos map 0 <FIELD VALUES>
+no qos map 0 <to>
+no qos map 0 <QUEUE>
+no qos map 0
+no qos map 0 slot
+no qos map 0 slot <range>
+no qos map 0 pp
+no qos map 1
+no qos map 1 <FIELD VALUES>
+no qos map 1 <to>
+no qos map 1 <QUEUE>
+no qos map 1
+no qos map 1 slot
+no qos map 1 slot <range>
+no qos map 1 pp
+no qos wrr
+no qos wrr enable
+no qos wrr enable slot
+no qos wrr enable slot <range>
+no selective-qinq
+no selective-qinq list
+no selective-qinq list <LIST NAME>
+no slot
+no slot <range>
+no slot
+no slot type
+no slot terminal-vlan
+no slot terminal-vlan <vlan_index>
+no slot profile
+no slot profile
+no slot profile pppoe-ia
+no slot profile dhcp-ra
+no slot profile dhcp-ra vlan
+no slot profile dhcp-ra vlan <dhcp_vid_value>
+no slot logging
+no slot logging
+no slot logging system
+no slot logging module
+no slot logging module <module_value>
+no spanning-tree
+no spanning-tree bpdu
+no spanning-tree enable
+no spanning-tree fdelay
+no spanning-tree hello
+no spanning-tree holdcount
+no spanning-tree maxage
+no spanning-tree mode
+no spanning-tree mst
+no spanning-tree mst instance
+no spanning-tree mst instance priority
+no spanning-tree mst instance priority <msti id>
+no spanning-tree mst max-hops
+no spanning-tree priority
+no stack
+no stack sync-allow
+no stack upgrade-enable
+no tacacs-server
+no tacacs-server host
+no tacacs-server host <SERVER IP>
+no tacacs-server key
+no template
+no template <name>
+no terminal-vlan
+no terminal-vlan <vlan_index>
+no user
+no user <name>
+no vlan
+no vlan <VLAN_RANGE>
+port-channel
+port-channel load-balance
+port-channel load-balance ip
+port-channel load-balance ip-l4
+port-channel load-balance mac
+port-channel load-balance mac-ip
+port-channel load-balance mac-ip-l4
+privilege
+privilege <level>
+privilege view-switch
+privilege view-alarm
+privilege view-system
+privilege view-general
+privilege view-gpon
+privilege view-ont
+privilege view-ont-profile
+privilege view-switch-interfaces
+privilege config-switch
+privilege config-alarm
+privilege config-system
+privilege config-general
+privilege config-gpon
+privilege config-ont
+privilege ont-operation
+privilege config-ont-profile
+privilege config-switch-interfaces
+profile
+profile address-table
+profile address-table <name>
+profile cross-connect
+profile cross-connect <name>
+profile dba
+profile dba <name>
+profile dhcp-ra
+profile dhcp-ra <name>
+profile management
+profile management <name>
+profile ports
+profile ports <name>
+profile pppoe-ia
+profile pppoe-ia <name>
+profile scripting
+profile scripting <name>
+profile shaping
+profile shaping <name>
+profile vlan
+profile vlan <name>
+qos
+qos cpu
+qos cpu input-rate
+qos cpu input-rate slot
+qos cpu input-rate slot <range>
+qos cpu quota
+qos cpu quota queues
+qos cpu quota queues <Q7>
+qos cpu quota queues <Q6>
+qos cpu quota queues <Q5>
+qos cpu quota queues <Q4>
+qos cpu quota queues <Q3>
+qos cpu quota queues <Q2>
+qos cpu quota queues <Q1>
+qos cpu quota queues <Q0>
+qos cpu quota queues slot
+qos cpu quota queues slot <range>
+qos cpu rate-limit
+qos cpu rate-limit <TTYPE>
+qos cpu rate-limit <VALUE>
+qos cpu rate-limit slot
+qos cpu rate-limit slot <range>
+qos cpu replication-swap-queues
+qos cpu replication-swap-queues slot
+qos cpu replication-swap-queues slot <range>
+qos cpu replication-task-priority
+qos cpu replication-task-priority <VALUE>
+qos cpu replication-task-priority slot
+qos cpu replication-task-priority slot <range>
+qos cpu wrr
+qos cpu wrr enable
+qos cpu wrr enable slot
+qos cpu wrr enable slot <range>
+qos cpu wrr queues
+qos cpu wrr queues <Q7>
+qos cpu wrr queues <Q6>
+qos cpu wrr queues <Q5>
+qos cpu wrr queues <Q4>
+qos cpu wrr queues <Q3>
+qos cpu wrr queues <Q2>
+qos cpu wrr queues <Q1>
+qos cpu wrr queues <Q0>
+qos cpu wrr queues slot
+qos cpu wrr queues slot <range>
+qos default
+qos default <QUEUE>
+qos default
+qos default slot
+qos default slot <range>
+qos default pp
+qos downstream-qinq-prio
+qos downstream-qinq-prio enable
+qos downstream-qinq-prio enable slot
+qos downstream-qinq-prio enable slot <range>
+qos map
+qos map 0
+qos map 0 <FIELD VALUES>
+qos map 0 <to>
+qos map 0 <QUEUE>
+qos map 0
+qos map 0 slot
+qos map 0 slot <range>
+qos map 0 pp
+qos map 1
+qos map 1 <FIELD VALUES>
+qos map 1 <to>
+qos map 1 <QUEUE>
+qos map 1
+qos map 1 slot
+qos map 1 slot <range>
+qos map 1 pp
+qos type
+qos type 0
+qos type 0
+qos type 0 slot
+qos type 0 slot <range>
+qos type 0 pp
+qos type 1
+qos type 1
+qos type 1 slot
+qos type 1 slot <range>
+qos type 1 pp
+qos type 2
+qos type 2
+qos type 2 slot
+qos type 2 slot <range>
+qos type 2 pp
+qos type 3
+qos type 3
+qos type 3 slot
+qos type 3 slot <range>
+qos type 3 pp
+qos wrr
+qos wrr enable
+qos wrr enable slot
+qos wrr enable slot <range>
+qos wrr queues
+qos wrr queues <Q6>
+qos wrr queues <Q5>
+qos wrr queues <Q4>
+qos wrr queues <Q3>
+qos wrr queues <Q2>
+qos wrr queues <Q1>
+qos wrr queues <Q0>
+qos wrr queues slot
+qos wrr queues slot <range>
+selective-qinq
+selective-qinq common
+selective-qinq list
+selective-qinq list <LIST NAME>
+slot
+slot <range>
+slot
+slot type
+slot type <type_value>
+slot profile
+slot profile
+slot profile pppoe-ia
+slot profile pppoe-ia <profile_pppoe_name>
+slot profile dhcp-ra
+slot profile dhcp-ra <profile_dhcp_name>
+slot profile dhcp-ra vlan
+slot profile dhcp-ra vlan <dhcp_vid_value>
+slot terminal-vlan
+slot terminal-vlan <vlan_index>
+slot terminal-vlan vid
+slot terminal-vlan vid <vid_value>
+slot terminal-vlan cos
+slot terminal-vlan cos
+slot terminal-vlan cos <cos_value>
+slot terminal-vlan cos unused
+slot logging
+slot logging
+slot logging system
+slot logging system loglevel
+slot logging system loglevel <ll_system>
+slot logging module
+slot logging module <module_value>
+slot logging module <module_value> loglevel
+slot logging module <module_value> loglevel <level_value>
+slot access-list
+slot access-list
+slot access-list mode
+slot access-list mode
+slot access-list mode whitelist
+slot access-list mode blacklist
+slot access-list create
+slot access-list create <NAME>
+slot access-list delete
+slot access-list delete <NAME>
+slot access-list bind
+slot access-list bind
+slot access-list bind plc-pon-port
+slot access-list bind plc-pon-port <RANGE>
+slot access-list bind plc-pon-port <NAME>
+slot access-list bind plc-front-port
+slot access-list bind plc-front-port <RANGE>
+slot access-list bind plc-front-port <NAME>
+slot access-list unbind
+slot access-list unbind
+slot access-list unbind plc-pon-port
+slot access-list unbind plc-pon-port <RANGE>
+slot access-list unbind plc-front-port
+slot access-list unbind plc-front-port <RANGE>
+slot access-list filter
+slot access-list filter
+slot access-list filter add
+slot access-list filter del
+slot access-list filter
+slot access-list filter mac-sa
+slot access-list filter mac-sa <MAC_ADDRESS>
+slot access-list filter mac-sa <NAME>
+slot access-list filter mac-da
+slot access-list filter mac-da <MAC_ADDRESS>
+slot access-list filter mac-da <NAME>
+slot access-list filter l2-protocol
+slot access-list filter l2-protocol <L2_PROTOCOL>
+slot access-list filter l2-protocol <NAME>
+slot access-list filter ipv4-protocol
+slot access-list filter ipv4-protocol <IPV4_PROTOCOL>
+slot access-list filter ipv4-protocol <NAME>
+slot access-list filter ip-sa
+slot access-list filter ip-sa <IP_ADDRESS>
+slot access-list filter ip-sa <NAME>
+slot access-list filter ip-da
+slot access-list filter ip-da <IP_ADDRESS>
+slot access-list filter ip-da <NAME>
+slot access-list filter tcp-sport
+slot access-list filter tcp-sport <TCP_PORT>
+slot access-list filter tcp-sport <NAME>
+slot access-list filter tcp-dport
+slot access-list filter tcp-dport <TCP_PORT>
+slot access-list filter tcp-dport <NAME>
+slot access-list filter udp-sport
+slot access-list filter udp-sport <UDP_PORT>
+slot access-list filter udp-sport <NAME>
+slot access-list filter udp-dport
+slot access-list filter udp-dport <UDP_PORT>
+slot access-list filter udp-dport <NAME>
+spanning-tree
+spanning-tree bpdu
+spanning-tree bpdu <mode>
+spanning-tree enable
+spanning-tree fdelay
+spanning-tree fdelay <forward delay>
+spanning-tree hello
+spanning-tree hello <hello time>
+spanning-tree holdcount
+spanning-tree holdcount <hold count>
+spanning-tree maxage
+spanning-tree maxage <max age>
+spanning-tree mode
+spanning-tree mode <mode>
+spanning-tree mst
+spanning-tree mst configuration
+spanning-tree mst instance
+spanning-tree mst instance priority
+spanning-tree mst instance priority <msti id>
+spanning-tree mst instance priority <priority>
+spanning-tree mst max-hops
+spanning-tree mst max-hops <max hops>
+spanning-tree priority
+spanning-tree priority <priority>
+stack
+stack upgrade-enable
+tacacs-server
+tacacs-server encrypted
+tacacs-server encrypted key
+tacacs-server encrypted key <EKEY>
+tacacs-server host
+tacacs-server host <SERVER IP>
+tacacs-server key
+tacacs-server key <KEY>
+tacacs-server timeout
+tacacs-server timeout <TIMEOUT>
+template
+template <name>
+terminal-vlan
+terminal-vlan <vlan_index>
+top
+user
+user <name>
+user
+user password
+user password <password_value>
+user crypted_password
+user crypted_password <password_value_crypted>
+user privilege
+user privilege <privilege_value>
+user priority
+user priority <priority_value>
+vlan
+vlan <VLAN_RANGE>
+=========================================================
+VIEW: cross-connect-view
+=========================================================
+bridge
+bridge group
+bridge group <group>
+description
+description <VALUE>
+do
+exit
+inner
+inner vid
+inner vid
+inner vid <vid_value>
+inner vid terminal-vlan
+inner vid terminal-vlan <term_vid>
+iphost
+iphost <eid>
+iphost eid
+iphost eid <eid>
+mac-table-limit
+mac-table-limit <mtl>
+name
+name <VALUE>
+no
+no bridge
+no bridge group
+no description
+no inner
+no iphost
+no mac-table-limit
+no outer
+no outer cos
+no outer vid
+no priority
+no tag-mode
+no type
+no user
+no user cos
+no user vid
+outer
+outer vid
+outer vid
+outer vid <vid_value>
+outer vid terminal-vlan
+outer vid terminal-vlan <term_vid>
+outer cos
+outer cos
+outer cos <cos_value>
+outer cos unused
+outer cos terminal-vlan
+outer cos terminal-vlan <term_cos>
+priority
+priority <prio>
+tag-mode
+tag-mode <mode>
+top
+type
+type <type>
+user
+user vid
+user vid
+user vid <vid_value>
+user vid untagged
+user vid terminal-vlan
+user vid terminal-vlan <term_vid>
+user cos
+user cos
+user cos <cos_value>
+user cos unused
+user cos terminal-vlan
+user cos terminal-vlan <term_cos>
+=========================================================
+VIEW: dba-view
+=========================================================
+alloc
+alloc size
+alloc size <size_value>
+alloc period
+alloc period <period_value>
+allocation-scheme
+allocation-scheme <VALUE>
+bandwidth
+bandwidth besteffort
+bandwidth besteffort <be_bw>
+bandwidth fixed
+bandwidth fixed <fix_bw>
+bandwidth guaranteed
+bandwidth guaranteed <grnt_bw>
+description
+description <VALUE>
+do
+exit
+name
+name <VALUE>
+no
+no alloc
+no alloc period
+no alloc size
+no allocation-scheme
+no bandwidth
+no bandwidth besteffort
+no bandwidth fixed
+no bandwidth guaranteed
+no description
+no sla
+no sla class
+no sla status-reporting
+sla
+sla class
+sla class <class_value>
+sla status-reporting
+sla status-reporting <stat_value>
+top
+=========================================================
+VIEW: dhcp-ra-view
+=========================================================
+description
+description <VALUE>
+do
+dos-block
+dos-block block-time
+dos-block block-time <block_time_value>
+dos-block packet-limit
+dos-block packet-limit <packet_limit_value>
+enable
+exit
+name
+name <VALUE>
+no
+no description
+no dos-block
+no dos-block block-time
+no dos-block packet-limit
+no enable
+no overwrite-option82
+no overwrite-option82 circuit-id
+no overwrite-option82 remote-id
+no trusted
+no trusted server
+no trusted primary
+no trusted secondary
+no trusted timeout
+overwrite-option82
+overwrite-option82 circuit-id
+overwrite-option82 circuit-id <circuit_id_value>
+overwrite-option82 circuit-id <circuit_id_value> remote-id
+overwrite-option82 circuit-id <circuit_id_value> remote-id <remote_id_value>
+overwrite-option82 remote-id
+overwrite-option82 remote-id <remote_id_value>
+overwrite-option82 remote-id <remote_id_value> circuit-id
+overwrite-option82 remote-id <remote_id_value> circuit-id <circuit_id_value>
+top
+trusted
+trusted server
+trusted primary
+trusted primary <primary_value>
+trusted secondary
+trusted secondary <secondary_value>
+trusted timeout
+trusted timeout <timeout_value>
+=========================================================
+VIEW: filter-syslog-configure-view
+=========================================================
+destination
+destination console
+destination file
+destination file <FILE>
+destination host
+destination host <HOST>
+destination host <port>
+destination host <PORT>
+destination host <transport>
+destination host <TRANSPORT>
+destination monitor
+do
+exit
+facility
+facility <FACILITY>
+facility <SEVERITY>
+match
+match <REGEXP>
+match-source
+match-source pp
+match-source pp-other
+match-source slot
+match-source slot <SLOT>
+no
+no destination
+no destination console
+no destination file
+no destination file <FILE>
+no destination host
+no destination host <HOST>
+no destination host <port>
+no destination host <PORT>
+no destination monitor
+no match
+no match-source
+no match-source pp
+no match-source pp-other
+no match-source slot
+no match-source slot <SLOT>
+not-match
+not-match <REGEXP>
+top
+=========================================================
+VIEW: front-port-express-configure-view
+=========================================================
+backup
+backup interface
+backup interface front-port
+backup interface front-port <INDEX>
+backup interface front-port <VLAN>
+backup interface front-port <VLAN_ID_RANGE>
+backup interface port-channel
+backup interface port-channel <INDEX>
+backup interface port-channel <VLAN>
+backup interface port-channel <VLAN ID RANGE>
+bridging
+bridging to
+bridging to front-port
+bridging to front-port <RANGE>
+bridging to port-channel
+bridging to port-channel <RANGE>
+bridging to slot-channel
+bridging to slot-channel <RANGE>
+channel-group
+channel-group <group number>
+channel-group <force>
+do
+exit
+flow-control
+flow-control off
+flow-control on
+frame-types
+frame-types all
+frame-types tagged
+ingress-filtering
+ip
+ip arp
+ip arp inspection
+ip arp inspection static-table
+ip arp inspection static-table <IP>
+ip arp inspection static-table <IP-ADDRESS>
+ip arp inspection static-table <MAC>
+ip arp inspection static-table <MAC-ADDRESS>
+ip arp inspection static-table <VLAN>
+ip arp inspection static-table <VID>
+ip arp inspection trusted
+lacp
+lacp mode
+lacp mode active
+lacp mode passive
+lacp port-priority
+lacp port-priority <priority>
+lacp rate
+lacp rate fast
+lacp rate slow
+lldp
+lldp mode
+lldp mode <mode>
+lldp optional-tlv
+lldp optional-tlv 802.1
+lldp optional-tlv 802.1 link-aggregation
+lldp optional-tlv 802.1 management-vid
+lldp optional-tlv 802.1 ppvid
+lldp optional-tlv 802.1 ppvid <vlan>
+lldp optional-tlv 802.1 protocol
+lldp optional-tlv 802.1 protocol <protocol>
+lldp optional-tlv 802.1 pvid
+lldp optional-tlv 802.1 vlan-name
+lldp optional-tlv 802.1 vlan-name <vlan>
+lldp optional-tlv 802.3
+lldp optional-tlv 802.3 mac-phy
+lldp optional-tlv 802.3 max-frame-size
+lldp optional-tlv none
+lldp optional-tlv port-desc
+lldp optional-tlv sys-cap
+lldp optional-tlv sys-desc
+lldp optional-tlv sys-name
+no
+no backup
+no backup interface
+no backup interface <VLAN>
+no backup interface <VLAN ID RANGE>
+no bridging
+no bridging to
+no bridging to front-port
+no bridging to front-port <RANGE>
+no bridging to port-channel
+no bridging to port-channel <RANGE>
+no bridging to slot-channel
+no bridging to slot-channel <RANGE>
+no channel-group
+no ingress-filtering
+no ip
+no ip arp
+no ip arp inspection
+no ip arp inspection static-table
+no ip arp inspection static-table <IP>
+no ip arp inspection static-table <IP-ADDRESS>
+no ip arp inspection trusted
+no lacp
+no lacp mode
+no lacp port-priority
+no lacp rate
+no lldp
+no lldp mode
+no lldp optional-tlv
+no lldp optional-tlv 802.1
+no lldp optional-tlv 802.1 ppvid
+no lldp optional-tlv 802.1 ppvid <vlan>
+no lldp optional-tlv 802.1 protocol
+no lldp optional-tlv 802.1 protocol <protocol>
+no lldp optional-tlv 802.1 vlan-name
+no lldp optional-tlv 802.1 vlan-name <vlan>
+no selective-qinq
+no selective-qinq enable
+no selective-qinq list
+no shutdown
+no spanning-tree
+no spanning-tree admin-edge
+no spanning-tree admin-p2p
+no spanning-tree auto-edge
+no spanning-tree enable
+no spanning-tree pathcost
+no spanning-tree priority
+pvid
+pvid <pvid>
+selective-qinq
+selective-qinq enable
+selective-qinq list
+selective-qinq list <LIST NAME>
+shutdown
+spanning-tree
+spanning-tree admin-edge
+spanning-tree admin-p2p
+spanning-tree admin-p2p auto
+spanning-tree admin-p2p force-false
+spanning-tree admin-p2p force-true
+spanning-tree auto-edge
+spanning-tree enable
+spanning-tree pathcost
+spanning-tree pathcost <pathcost>
+spanning-tree priority
+spanning-tree priority <priority>
+speed
+speed 1000M
+speed 100M
+speed 100M full-duplex
+speed 100M half-duplex
+speed 10G
+speed 10M
+speed 10M full-duplex
+speed 10M half-duplex
+speed auto
+top
+=========================================================
+VIEW: global
+=========================================================
+!
+exit
+=========================================================
+VIEW: if-gpon-view
+=========================================================
+do
+exit
+fec
+no
+no fec
+no optics
+no optics delay
+no optics delay double
+no optics delay double burst
+no optics delay single
+no optics delay single burst
+no optics laser-reset
+no optics laser-reset polarity
+no optics preamble
+no optics preamble correlation-length
+no optics preamble delimiter
+no optics preamble delimiter byte1
+no optics preamble delimiter byte2
+no optics preamble delimiter byte3
+no optics preamble delimiter size
+no optics preamble guard-time-data-mode
+no optics preamble pattern
+no optics preamble pattern type3
+no optics preamble size
+no optics preamble size type1-data
+no optics preamble size type2-data
+no optics preamble size type3-data
+no optics preamble snr-rng-length
+no optics reset
+no optics reset data
+no optics reset data burst
+no optics reset data burst bcdr
+no optics reset data burst bcdr d1
+no optics reset data burst bcdr d2
+no optics reset data burst laser
+no optics reset data burst laser d1
+no optics reset data burst laser d2
+no optics reset double
+no optics reset double bcdr
+no optics reset double bcdr d3
+no optics reset double bcdr d4
+no optics reset double laser
+no optics reset double laser d3
+no optics reset double laser d4
+no optics reset rng
+no optics reset rng burst
+no optics reset rng burst bcdr
+no optics reset rng burst bcdr d1
+no optics reset rng burst bcdr d2
+no optics reset rng burst laser
+no optics reset rng burst laser d1
+no optics reset rng burst laser d2
+no optics reset single
+no optics reset single bcdr
+no optics reset single bcdr d1
+no optics reset single bcdr d2
+no optics reset single laser
+no optics reset single laser d1
+no optics reset single laser d2
+no optics reset snr
+no optics reset snr burst
+no optics reset snr burst bcdr
+no optics reset snr burst bcdr d1
+no optics reset snr burst bcdr d2
+no optics reset snr burst laser
+no optics reset snr burst laser d1
+no optics reset snr burst laser d2
+no optics reset type
+no optics reset type snr-ranging
+no optics reset type normal
+no optics rng
+no optics rng burst
+no optics rng delimiter
+no optics rng preamble
+no optics rng timer
+no optics signal-detect
+no optics signal-detect hold-normal
+no optics signal-detect hold-snr-ranging
+no optics signal-detect source
+no optics snr
+no optics snr burst
+no optics snr delimiter
+no optics snr preamble
+no optics snr timer
+no optics use-custom
+no optics voltage-if-mode
+no profile
+no profile address-table
+no profile vlan
+no shutdown
+optics
+optics delay
+optics delay double
+optics delay double burst
+optics delay double burst <burst_value>
+optics delay single
+optics delay single burst
+optics delay single burst <burst_value>
+optics laser-reset
+optics laser-reset polarity
+optics laser-reset polarity <polarity_value>
+optics preamble
+optics preamble correlation-length
+optics preamble correlation-length <correlation_length_value>
+optics preamble delimiter
+optics preamble delimiter byte1
+optics preamble delimiter byte1 <byte1_value>
+optics preamble delimiter byte2
+optics preamble delimiter byte2 <byte2_value>
+optics preamble delimiter byte3
+optics preamble delimiter byte3 <byte3_value>
+optics preamble delimiter size
+optics preamble delimiter size <delimiter_size_value>
+optics preamble guard-time-data-mode
+optics preamble guard-time-data-mode <guard_time_data_mode_value>
+optics preamble pattern
+optics preamble pattern type3
+optics preamble pattern type3 <type3_pattern_value>
+optics preamble size
+optics preamble size type1-data
+optics preamble size type1-data <type1_data_size_value>
+optics preamble size type2-data
+optics preamble size type2-data <type2_data_size_value>
+optics preamble size type3-data
+optics preamble size type3-data <type3_data_size_value>
+optics preamble snr-rng-length
+optics preamble snr-rng-length <snr_rng_length_value>
+optics reset
+optics reset data
+optics reset data burst
+optics reset data burst bcdr
+optics reset data burst bcdr d1
+optics reset data burst bcdr d1 <d1_value>
+optics reset data burst bcdr d2
+optics reset data burst bcdr d2 <d2_value>
+optics reset data burst laser
+optics reset data burst laser d1
+optics reset data burst laser d1 <d1_value>
+optics reset data burst laser d2
+optics reset data burst laser d2 <d2_value>
+optics reset double
+optics reset double bcdr
+optics reset double bcdr d3
+optics reset double bcdr d3 <d3_value>
+optics reset double bcdr d4
+optics reset double bcdr d4 <d4_value>
+optics reset double laser
+optics reset double laser d3
+optics reset double laser d3 <d3_value>
+optics reset double laser d4
+optics reset double laser d4 <d4_value>
+optics reset rng
+optics reset rng burst
+optics reset rng burst bcdr
+optics reset rng burst bcdr d1
+optics reset rng burst bcdr d1 <d1_value>
+optics reset rng burst bcdr d2
+optics reset rng burst bcdr d2 <d2_value>
+optics reset rng burst laser
+optics reset rng burst laser d1
+optics reset rng burst laser d1 <d1_value>
+optics reset rng burst laser d2
+optics reset rng burst laser d2 <d2_value>
+optics reset single
+optics reset single bcdr
+optics reset single bcdr d1
+optics reset single bcdr d1 <d1_value>
+optics reset single bcdr d2
+optics reset single bcdr d2 <d2_value>
+optics reset single laser
+optics reset single laser d1
+optics reset single laser d1 <d1_value>
+optics reset single laser d2
+optics reset single laser d2 <d2_value>
+optics reset snr
+optics reset snr burst
+optics reset snr burst bcdr
+optics reset snr burst bcdr d1
+optics reset snr burst bcdr d1 <d1_value>
+optics reset snr burst bcdr d2
+optics reset snr burst bcdr d2 <d2_value>
+optics reset snr burst laser
+optics reset snr burst laser d1
+optics reset snr burst laser d1 <d1_value>
+optics reset snr burst laser d2
+optics reset snr burst laser d2 <d2_value>
+optics reset type
+optics reset type snr-ranging
+optics reset type snr-ranging <snr_ranging_value>
+optics reset type normal
+optics reset type normal <normal_value>
+optics rng
+optics rng burst
+optics rng burst <burst_value>
+optics rng delimiter
+optics rng delimiter <delimiter_value>
+optics rng preamble
+optics rng preamble <preamble_value>
+optics rng timer
+optics rng timer <timer_value>
+optics signal-detect
+optics signal-detect hold-normal
+optics signal-detect hold-snr-ranging
+optics signal-detect source
+optics signal-detect source <source_value>
+optics snr
+optics snr burst
+optics snr burst <burst_value>
+optics snr delimiter
+optics snr delimiter <delimiter_value>
+optics snr preamble
+optics snr preamble <preamble_value>
+optics snr timer
+optics snr timer <timer_value>
+optics use-custom
+optics voltage-if-mode
+optics voltage-if-mode <voltage_if_mode_value>
+profile
+profile address-table
+profile address-table <profile_address_table_value>
+profile vlan
+profile vlan <profile_vlan_value>
+shutdown
+top
+=========================================================
+VIEW: if-ont-view
+=========================================================
+ber
+ber interval
+ber interval <ber_interval_value>
+ber update-period
+ber update-period <ber_update_period_value>
+broadcast-downstream
+custom-model
+custom-model <custom_model_val>
+description
+description <description_value>
+do
+exit
+fec
+no
+no ber
+no ber interval
+no ber update-period
+no broadcast-downstream
+no custom-model
+no description
+no fec
+no omci-error-tolerant
+no password
+no profile
+no profile management
+no profile ports
+no profile shaping
+no profile scripting
+no rf-port-state
+no serial
+no service
+no service <id_value>
+no service custom
+no service custom vid
+no service custom cvid
+no service custom svid
+no service custom cos
+no service profile
+no service profile dba
+no service profile cross-connect
+no shutdown
+no template
+omci-error-tolerant
+password
+password <password_value>
+profile
+profile management
+profile management <mgt_id>
+profile ports
+profile ports <ports_id>
+profile shaping
+profile shaping <shaping_id>
+profile scripting
+profile scripting <scripting_id>
+rf-port-state
+rf-port-state <rf_port_state_value>
+serial
+serial <serial_value>
+service
+service <id_value>
+service custom
+service custom vid
+service custom vid <vid_value>
+service custom cvid
+service custom cvid <cvid_value>
+service custom svid
+service custom svid <svid_value>
+service custom cos
+service custom cos <cos_value>
+service profile
+service profile dba
+service profile dba <dba_value>
+service profile cross-connect
+service profile cross-connect <cc_value>
+shutdown
+template
+template <tmpl_id>
+top
+=========================================================
+VIEW: isolation-group-configure-view
+=========================================================
+allow
+allow front-port
+allow front-port <RANGE>
+allow port-channel
+allow port-channel <RANGE>
+allow slot-channel
+allow slot-channel <RANGE>
+do
+exit
+no
+no allow
+no allow front-port
+no allow front-port <RANGE>
+no allow port-channel
+no allow port-channel <RANGE>
+no allow slot-channel
+no allow slot-channel <RANGE>
+top
+=========================================================
+VIEW: line-configure-view
+=========================================================
+do
+exit
+login
+login authentication
+login authentication default
+login authentication list
+login authentication list <LIST NAME>
+top
+=========================================================
+VIEW: management-view
+=========================================================
+description
+description <VALUE>
+do
+exit
+name
+name <VALUE>
+no
+no description
+no omci-configuration
+no password
+no url
+no username
+omci-configuration
+password
+password <pw>
+top
+url
+url <url>
+username
+username <uname>
+=========================================================
+VIEW: mst-configuration-view
+=========================================================
+do
+exit
+instance
+instance <msti id>
+instance <vlan>
+instance <vlan id>
+name
+name <name>
+no
+no instance
+no instance <msti id>
+no instance <vlan>
+no instance <vlan id>
+no name
+no revision
+revision
+revision <revision>
+top
+=========================================================
+VIEW: ont-express-configure-view
+=========================================================
+ber
+ber interval
+ber interval <INTERVAL>
+ber update
+ber update period
+ber update period <INTERVAL>
+custom-model
+custom-model <MODEL>
+description
+description <DECRIPTION>
+downstream-broadcast
+exit
+fec
+fec enable
+no
+no ber
+no ber interval
+no ber update
+no ber update period
+no custom-model
+no description
+no downstream-broadcast
+no fec
+no fec enable
+no omci-error-tolerant
+no ont
+no password
+no rf-port
+no rf-port state
+no service
+no service override
+no service override 0
+no service override 1
+no service override 2
+no service override 3
+no service override 4
+no service override 5
+no service override 6
+no service override 7
+no shutdown
+omci-error-tolerant
+ont
+ont <SERIAL>
+password
+password <VALUE>
+profile
+profile dba
+profile dba <SERVICE NUM>
+profile dba <PROFILE NAME>
+profile gem-port
+profile gem-port <SERVICE NUM>
+profile gem-port <PROFILE NAME>
+profile management
+profile management <PROFILE NAME>
+profile ports
+profile ports <PROFILE NAME>
+profile scripting
+profile scripting <PROFILE NAME>
+profile shaper
+profile shaper <PROFILE NAME>
+rf-port
+rf-port state
+rf-port state <STATE>
+service
+service override
+service override 0
+service override 0 cvlan
+service override 0 cvlan <VID_VALUE>
+service override 0 cvlan <cos>
+service override 0 cvlan <COS_VALUE>
+service override 1
+service override 1 cvlan
+service override 1 cvlan <VID_VALUE>
+service override 1 cvlan <cos>
+service override 1 cvlan <COS_VALUE>
+service override 2
+service override 2 cvlan
+service override 2 cvlan <VID_VALUE>
+service override 2 cvlan <cos>
+service override 2 cvlan <COS_VALUE>
+service override 3
+service override 3 cvlan
+service override 3 cvlan <VID_VALUE>
+service override 3 cvlan <cos>
+service override 3 cvlan <COS_VALUE>
+service override 4
+service override 4 cvlan
+service override 4 cvlan <VID_VALUE>
+service override 4 cvlan <cos>
+service override 4 cvlan <COS_VALUE>
+service override 5
+service override 5 cvlan
+service override 5 cvlan <VID_VALUE>
+service override 5 cvlan <cos>
+service override 5 cvlan <COS_VALUE>
+service override 6
+service override 6 cvlan
+service override 6 cvlan <VID_VALUE>
+service override 6 cvlan <cos>
+service override 6 cvlan <COS_VALUE>
+service override 7
+service override 7 cvlan
+service override 7 cvlan <VID_VALUE>
+service override 7 cvlan <cos>
+service override 7 cvlan <COS_VALUE>
+shutdown
+top
+=========================================================
+VIEW: plc-express-switch-front-port-configure-view
+=========================================================
+bridging
+bridging to
+bridging to plc-front-port
+bridging to plc-front-port <RANGE>
+bridging to plc-pon-port
+bridging to plc-pon-port <RANGE>
+bridging to plc-slot-channel
+bridging to plc-slot-channel <RANGE>
+do
+exit
+flow-control
+flow-control off
+flow-control on
+frame-types
+frame-types all
+frame-types tagged
+ingress-filtering
+ip
+ip arp
+ip arp inspection
+ip arp inspection static-table
+ip arp inspection static-table <IP>
+ip arp inspection static-table <IP-ADDRESS>
+ip arp inspection static-table <MAC>
+ip arp inspection static-table <MAC-ADDRESS>
+ip arp inspection static-table <VLAN>
+ip arp inspection static-table <VID>
+ip arp inspection trusted
+no
+no bridging
+no bridging to
+no bridging to plc-front-port
+no bridging to plc-front-port <RANGE>
+no bridging to plc-pon-port
+no bridging to plc-pon-port <RANGE>
+no bridging to plc-slot-channel
+no bridging to plc-slot-channel <RANGE>
+no ingress-filtering
+no ip
+no ip arp
+no ip arp inspection
+no ip arp inspection static-table
+no ip arp inspection static-table <IP>
+no ip arp inspection static-table <IP-ADDRESS>
+no ip arp inspection trusted
+no shutdown
+pvid
+pvid <pvid>
+shutdown
+speed
+speed 1000M
+speed 100M
+speed 100M full-duplex
+speed 100M half-duplex
+speed 10G
+speed 10M
+speed 10M full-duplex
+speed 10M half-duplex
+speed auto
+top
+=========================================================
+VIEW: plc-express-switch-pon-port-configure-view
+=========================================================
+bridging
+bridging to
+bridging to plc-front-port
+bridging to plc-front-port <RANGE>
+bridging to plc-pon-port
+bridging to plc-pon-port <RANGE>
+bridging to plc-slot-channel
+bridging to plc-slot-channel <RANGE>
+do
+exit
+frame-types
+frame-types all
+frame-types tagged
+ip
+ip arp
+ip arp inspection
+ip arp inspection static-table
+ip arp inspection static-table <IP>
+ip arp inspection static-table <IP-ADDRESS>
+ip arp inspection static-table <MAC>
+ip arp inspection static-table <MAC-ADDRESS>
+ip arp inspection static-table <VLAN>
+ip arp inspection static-table <VID>
+ip arp inspection trusted
+no
+no bridging
+no bridging to
+no bridging to plc-front-port
+no bridging to plc-front-port <RANGE>
+no bridging to plc-pon-port
+no bridging to plc-pon-port <RANGE>
+no bridging to plc-slot-channel
+no bridging to plc-slot-channel <RANGE>
+no ip
+no ip arp
+no ip arp inspection
+no ip arp inspection static-table
+no ip arp inspection static-table <IP>
+no ip arp inspection static-table <IP-ADDRESS>
+no ip arp inspection trusted
+no rate-limit
+no rate-limit bc
+no rate-limit mc
+no shaper
+no shutdown
+pvid
+pvid <pvid>
+rate-limit
+rate-limit bc
+rate-limit bc <limit>
+rate-limit bc <burst>
+rate-limit mc
+rate-limit mc <limit>
+rate-limit mc <burst>
+shaper
+shaper <limit>
+shaper <burst>
+shutdown
+top
+=========================================================
+VIEW: plc-express-switch-slot-port-configure-view
+=========================================================
+do
+exit
+flow-control
+flow-control off
+flow-control on
+frame-types
+frame-types all
+frame-types tagged
+ingress-filtering
+lacp
+lacp mode
+lacp mode active
+lacp mode passive
+lacp port-priority
+lacp port-priority <priority>
+lacp rate
+lacp rate fast
+lacp rate slow
+no
+no ingress-filtering
+no lacp
+no lacp mode
+no lacp port-priority
+no lacp rate
+no rate-limit
+no rate-limit bc
+no rate-limit mc
+no shaper
+no shutdown
+pvid
+pvid <pvid>
+rate-limit
+rate-limit bc
+rate-limit bc <limit>
+rate-limit bc <burst>
+rate-limit mc
+rate-limit mc <limit>
+rate-limit mc <burst>
+shaper
+shaper <limit>
+shaper <burst>
+shutdown
+speed
+speed 1000M
+speed 100M
+speed 100M full-duplex
+speed 100M half-duplex
+speed 10G
+speed 10M
+speed 10M full-duplex
+speed 10M half-duplex
+speed auto
+top
+=========================================================
+VIEW: plc-switch-mgmt-pon-port-configure-view
+=========================================================
+do
+exit
+flow-control
+flow-control off
+flow-control on
+no
+no shutdown
+shutdown
+top
+=========================================================
+VIEW: plc-switch-slot-channel-configure-view
+=========================================================
+bridging
+bridging to
+bridging to plc-front-port
+bridging to plc-front-port <RANGE>
+bridging to plc-pon-port
+bridging to plc-pon-port <RANGE>
+bridging to plc-slot-channel
+bridging to plc-slot-channel <RANGE>
+do
+exit
+flow-control
+flow-control off
+flow-control on
+frame-types
+frame-types all
+frame-types tagged
+ingress-filtering
+ip
+ip arp
+ip arp inspection
+ip arp inspection static-table
+ip arp inspection static-table <IP>
+ip arp inspection static-table <IP-ADDRESS>
+ip arp inspection static-table <MAC>
+ip arp inspection static-table <MAC-ADDRESS>
+ip arp inspection static-table <VLAN>
+ip arp inspection static-table <VID>
+ip arp inspection trusted
+mode
+mode lacp
+mode static
+no
+no bridging
+no bridging to
+no bridging to plc-front-port
+no bridging to plc-front-port <RANGE>
+no bridging to plc-pon-port
+no bridging to plc-pon-port <RANGE>
+no bridging to plc-slot-channel
+no bridging to plc-slot-channel <RANGE>
+no ingress-filtering
+no ip
+no ip arp
+no ip arp inspection
+no ip arp inspection static-table
+no ip arp inspection static-table <IP>
+no ip arp inspection static-table <IP-ADDRESS>
+no ip arp inspection trusted
+pvid
+pvid <pvid>
+speed
+speed 1000M
+speed 100M
+speed 100M full-duplex
+speed 100M half-duplex
+speed 10G
+speed 10M
+speed 10M full-duplex
+speed 10M half-duplex
+speed auto
+top
+=========================================================
+VIEW: port-channel-express-configure-view
+=========================================================
+backup
+backup interface
+backup interface front-port
+backup interface front-port <INDEX>
+backup interface front-port <VLAN>
+backup interface front-port <VLAN_ID_RANGE>
+backup interface port-channel
+backup interface port-channel <INDEX>
+backup interface port-channel <VLAN>
+backup interface port-channel <VLAN ID RANGE>
+bridging
+bridging to
+bridging to front-port
+bridging to front-port <RANGE>
+bridging to port-channel
+bridging to port-channel <RANGE>
+bridging to slot-channel
+bridging to slot-channel <RANGE>
+do
+exit
+flow-control
+flow-control off
+flow-control on
+frame-types
+frame-types all
+frame-types tagged
+ingress-filtering
+ip
+ip arp
+ip arp inspection
+ip arp inspection static-table
+ip arp inspection static-table <IP>
+ip arp inspection static-table <IP-ADDRESS>
+ip arp inspection static-table <MAC>
+ip arp inspection static-table <MAC-ADDRESS>
+ip arp inspection static-table <VLAN>
+ip arp inspection static-table <VID>
+ip arp inspection trusted
+mode
+mode lacp
+mode static
+no
+no backup
+no backup interface
+no backup interface <VLAN>
+no backup interface <VLAN ID RANGE>
+no bridging
+no bridging to
+no bridging to front-port
+no bridging to front-port <RANGE>
+no bridging to port-channel
+no bridging to port-channel <RANGE>
+no bridging to slot-channel
+no bridging to slot-channel <RANGE>
+no ingress-filtering
+no ip
+no ip arp
+no ip arp inspection
+no ip arp inspection static-table
+no ip arp inspection static-table <IP>
+no ip arp inspection static-table <IP-ADDRESS>
+no ip arp inspection trusted
+no selective-qinq
+no selective-qinq enable
+no selective-qinq list
+no shutdown
+no spanning-tree
+no spanning-tree admin-edge
+no spanning-tree admin-p2p
+no spanning-tree auto-edge
+no spanning-tree enable
+no spanning-tree pathcost
+no spanning-tree priority
+pvid
+pvid <pvid>
+selective-qinq
+selective-qinq enable
+selective-qinq list
+selective-qinq list <LIST NAME>
+shutdown
+spanning-tree
+spanning-tree admin-edge
+spanning-tree admin-p2p
+spanning-tree admin-p2p auto
+spanning-tree admin-p2p force-false
+spanning-tree admin-p2p force-true
+spanning-tree auto-edge
+spanning-tree enable
+spanning-tree pathcost
+spanning-tree pathcost <pathcost>
+spanning-tree priority
+spanning-tree priority <priority>
+speed
+speed 1000M
+speed 100M
+speed 100M full-duplex
+speed 100M half-duplex
+speed 10G
+speed 10M
+speed 10M full-duplex
+speed 10M half-duplex
+top
+=========================================================
+VIEW: ports-view
+=========================================================
+description
+description <VALUE>
+do
+exit
+igmp
+igmp mode
+igmp mode <mode_value>
+igmp querier
+igmp querier <querier_value>
+igmp robustness
+igmp robustness <robustness_value>
+igmp version
+igmp version <version_value>
+igmp immediate-leave
+igmp multicast
+igmp multicast dynamic-entry
+igmp multicast dynamic-entry <entry_value>
+igmp multicast dynamic-entry <entry_value> vid
+igmp multicast dynamic-entry <entry_value> vid <vid_value>
+igmp multicast dynamic-entry <entry_value> group
+igmp multicast dynamic-entry <entry_value> group <first_ip>
+igmp multicast dynamic-entry <entry_value> group <last_ip>
+igmp query
+igmp query interval
+igmp query interval <int_value>
+igmp query last-member
+igmp query last-member <lmint_value>
+igmp query response
+igmp query response <respint_value>
+name
+name <VALUE>
+no
+no description
+no igmp
+no igmp mode
+no igmp querier
+no igmp robustness
+no igmp version
+no igmp immediate-leave
+no igmp multicast
+no igmp multicast dynamic-entry
+no igmp multicast dynamic-entry <entry_value>
+no igmp multicast dynamic-entry <entry_value> vid
+no igmp multicast dynamic-entry <entry_value> group
+no igmp query
+no igmp query interval
+no igmp query last-member
+no igmp query response
+no port
+no port 0
+no port 0 bridge
+no port 0 bridge group
+no port 0 bridge group spanning-tree
+no port 0 duplex
+no port 0 igmp
+no port 0 igmp downstream
+no port 0 igmp downstream priority
+no port 0 igmp downstream tag-control
+no port 0 igmp downstream vid
+no port 0 igmp max
+no port 0 igmp max groups
+no port 0 igmp max bandwidth
+no port 0 igmp upstream
+no port 0 igmp upstream priority
+no port 0 igmp upstream tag-control
+no port 0 igmp upstream vid
+no port 0 multicast
+no port 0 shaper
+no port 0 shaper downstream
+no port 0 shaper downstream commited-rate
+no port 0 shaper downstream peak-rate
+no port 0 shaper upstream
+no port 0 shaper upstream commited-rate
+no port 0 shaper upstream peak-rate
+no port 0 speed
+no port 1
+no port 1 bridge
+no port 1 bridge group
+no port 1 bridge group spanning-tree
+no port 1 duplex
+no port 1 igmp
+no port 1 igmp downstream
+no port 1 igmp downstream priority
+no port 1 igmp downstream tag-control
+no port 1 igmp downstream vid
+no port 1 igmp max
+no port 1 igmp max groups
+no port 1 igmp max bandwidth
+no port 1 igmp upstream
+no port 1 igmp upstream priority
+no port 1 igmp upstream tag-control
+no port 1 igmp upstream vid
+no port 1 multicast
+no port 1 shaper
+no port 1 shaper downstream
+no port 1 shaper downstream commited-rate
+no port 1 shaper downstream peak-rate
+no port 1 shaper upstream
+no port 1 shaper upstream commited-rate
+no port 1 shaper upstream peak-rate
+no port 1 speed
+no port 2
+no port 2 bridge
+no port 2 bridge group
+no port 2 bridge group spanning-tree
+no port 2 duplex
+no port 2 igmp
+no port 2 igmp downstream
+no port 2 igmp downstream priority to default
+no port 2 igmp downstream tag-control to default
+no port 2 igmp downstream vid
+no port 2 igmp max
+no port 2 igmp max groups
+no port 2 igmp max bandwidth
+no port 2 igmp upstream
+no port 2 igmp upstream priority
+no port 2 igmp upstream tag-control
+no port 2 igmp upstream vid
+no port 2 multicast
+no port 2 shaper
+no port 2 shaper downstream
+no port 2 shaper downstream commited-rate
+no port 2 shaper downstream peak-rate
+no port 2 shaper upstream
+no port 2 shaper upstream commited-rate
+no port 2 shaper upstream peak-rate
+no port 2 speed
+no port 3
+no port 3 bridge
+no port 3 bridge group
+no port 3 bridge group spanning-tree
+no port 3 duplex
+no port 3 igmp
+no port 3 igmp downstream
+no port 3 igmp downstream priority
+no port 3 igmp downstream tag-control
+no port 3 igmp downstream vid
+no port 3 igmp max
+no port 3 igmp max groups
+no port 3 igmp max bandwidth
+no port 3 igmp upstream
+no port 3 igmp upstream priority
+no port 3 igmp upstream tag-control
+no port 3 igmp upstream vid
+no port 3 multicast
+no port 3 shaper
+no port 3 shaper downstream
+no port 3 shaper downstream commited-rate
+no port 3 shaper downstream peak-rate
+no port 3 shaper upstream
+no port 3 shaper upstream commited-rate
+no port 3 shaper upstream peak-rate
+no port 3 speed
+no veip
+no veip downstream
+no veip downstream priority
+no veip downstream tag-control
+no veip downstream vid
+no veip max
+no veip max groups
+no veip max bandwidth
+no veip multicast
+no veip upstream
+no veip upstream priority
+no veip upstream tag-control
+no veip upstream vid
+port
+port 0
+port 0 bridge
+port 0 bridge group
+port 0 bridge group <bg>
+port 0 bridge group spanning-tree
+port 0 duplex
+port 0 duplex <duplex_value>
+port 0 igmp
+port 0 igmp downstream
+port 0 igmp downstream priority
+port 0 igmp downstream priority <priority_value>
+port 0 igmp downstream tag-control
+port 0 igmp downstream tag-control <tc_value>
+port 0 igmp downstream vid
+port 0 igmp downstream vid <vid_value>
+port 0 igmp max
+port 0 igmp max groups
+port 0 igmp max groups <mg_value>
+port 0 igmp max bandwidth
+port 0 igmp max bandwidth <bw_value>
+port 0 igmp upstream
+port 0 igmp upstream priority
+port 0 igmp upstream priority <priority_value>
+port 0 igmp upstream tag-control
+port 0 igmp upstream tag-control <tc_value>
+port 0 igmp upstream vid
+port 0 igmp upstream vid <vid_value>
+port 0 multicast
+port 0 shaper
+port 0 shaper downstream
+port 0 shaper downstream commited-rate
+port 0 shaper downstream commited-rate <crate>
+port 0 shaper downstream peak-rate
+port 0 shaper downstream peak-rate <prate>
+port 0 shaper upstream
+port 0 shaper upstream commited-rate
+port 0 shaper upstream commited-rate <crate>
+port 0 shaper upstream peak-rate
+port 0 shaper upstream peak-rate <prate>
+port 0 speed
+port 0 speed <speed_value>
+port 1
+port 1 bridge
+port 1 bridge group
+port 1 bridge group <bg>
+port 1 bridge group spanning-tree
+port 1 duplex
+port 1 duplex <duplex_value>
+port 1 igmp
+port 1 igmp downstream
+port 1 igmp downstream priority
+port 1 igmp downstream priority <priority_value>
+port 1 igmp downstream tag-control
+port 1 igmp downstream tag-control <tc_value>
+port 1 igmp downstream vid
+port 1 igmp downstream vid <vid_value>
+port 1 igmp max
+port 1 igmp max groups
+port 1 igmp max groups <mg_value>
+port 1 igmp max bandwidth
+port 1 igmp max bandwidth <bw_value>
+port 1 igmp upstream
+port 1 igmp upstream priority
+port 1 igmp upstream priority <priority_value>
+port 1 igmp upstream tag-control
+port 1 igmp upstream tag-control <tc_value>
+port 1 igmp upstream vid
+port 1 igmp upstream vid <vid_value>
+port 1 multicast
+port 1 shaper
+port 1 shaper downstream
+port 1 shaper downstream commited-rate
+port 1 shaper downstream commited-rate <crate>
+port 1 shaper downstream peak-rate
+port 1 shaper downstream peak-rate <prate>
+port 1 shaper upstream
+port 1 shaper upstream commited-rate
+port 1 shaper upstream commited-rate <crate>
+port 1 shaper upstream peak-rate
+port 1 shaper upstream peak-rate <prate>
+port 1 speed
+port 1 speed <speed_value>
+port 2
+port 2 bridge
+port 2 bridge group
+port 2 bridge group <bg>
+port 2 bridge group spanning-tree
+port 2 duplex
+port 2 duplex <duplex_value>
+port 2 igmp
+port 2 igmp downstream
+port 2 igmp downstream priority
+port 2 igmp downstream priority <priority_value>
+port 2 igmp downstream tag-control
+port 2 igmp downstream tag-control <tc_value>
+port 2 igmp downstream vid
+port 2 igmp downstream vid <vid_value>
+port 2 igmp max
+port 2 igmp max groups
+port 2 igmp max groups <mg_value>
+port 2 igmp max bandwidth
+port 2 igmp max bandwidth <bw_value>
+port 2 igmp upstream
+port 2 igmp upstream priority
+port 2 igmp upstream priority <priority_value>
+port 2 igmp upstream tag-control
+port 2 igmp upstream tag-control <tc_value>
+port 2 igmp upstream vid
+port 2 igmp upstream vid <vid_value>
+port 2 multicast
+port 2 shaper
+port 2 shaper downstream
+port 2 shaper downstream commited-rate
+port 2 shaper downstream commited-rate <crate>
+port 2 shaper downstream peak-rate
+port 2 shaper downstream peak-rate <prate>
+port 2 shaper upstream
+port 2 shaper upstream commited-rate
+port 2 shaper upstream commited-rate <crate>
+port 2 shaper upstream peak-rate
+port 2 shaper upstream peak-rate <prate>
+port 2 speed
+port 2 speed <speed_value>
+port 3
+port 3 bridge
+port 3 bridge group
+port 3 bridge group <bg>
+port 3 bridge group spanning-tree
+port 3 duplex
+port 3 duplex <duplex_value>
+port 3 igmp
+port 3 igmp downstream
+port 3 igmp downstream priority
+port 3 igmp downstream priority <priority_value>
+port 3 igmp downstream tag-control
+port 3 igmp downstream tag-control <tc_value>
+port 3 igmp downstream vid
+port 3 igmp downstream vid <vid_value>
+port 3 igmp max
+port 3 igmp max groups
+port 3 igmp max groups <mg_value>
+port 3 igmp max bandwidth
+port 3 igmp max bandwidth <bw_value>
+port 3 igmp upstream
+port 3 igmp upstream priority
+port 3 igmp upstream priority <priority_value>
+port 3 igmp upstream tag-control
+port 3 igmp upstream tag-control <tc_value>
+port 3 igmp upstream vid
+port 3 igmp upstream vid <vid_value>
+port 3 multicast
+port 3 shaper
+port 3 shaper downstream
+port 3 shaper downstream commited-rate
+port 3 shaper downstream commited-rate <crate>
+port 3 shaper downstream peak-rate
+port 3 shaper downstream peak-rate <prate>
+port 3 shaper upstream
+port 3 shaper upstream commited-rate
+port 3 shaper upstream commited-rate <crate>
+port 3 shaper upstream peak-rate
+port 3 shaper upstream peak-rate <prate>
+port 3 speed
+port 3 speed <speed_value>
+top
+veip
+veip downstream
+veip downstream priority
+veip downstream priority <priority_value>
+veip downstream tag-control
+veip downstream tag-control <tc_value>
+veip downstream vid
+veip downstream vid <vid_value>
+veip max
+veip max groups
+veip max groups <mg_value>
+veip max bandwidth
+veip max bandwidth <bw_value>
+veip multicast
+veip upstream
+veip upstream priority
+veip upstream priority <priority_value>
+veip upstream tag-control
+veip upstream tag-control <tc_value>
+veip upstream vid
+veip upstream vid <vid_value>
+=========================================================
+VIEW: pppoe-ia-view
+=========================================================
+description
+description <VALUE>
+do
+dos-block
+dos-block enable
+dos-block packet-limit
+dos-block packet-limit <packet_limit_value>
+dos-block block-time
+dos-block block-time <block_time_value>
+enable
+exit
+format
+format circuit-id
+format circuit-id <circuit_id_value>
+format remote-id
+format remote-id <remote_id_value>
+name
+name <VALUE>
+no
+no description
+no dos-block block-time
+no dos-block enable
+no dos-block packet-limit
+no enable
+no format
+no format circuit-id
+no format remote-id
+no sessions-limit
+no sessions-limit per-user
+no vendor-id
+sessions-limit
+sessions-limit <limit_value>
+sessions-limit per-user
+sessions-limit per-user <user_limit_value>
+top
+vendor-id
+vendor-id <vendor_id>
+=========================================================
+VIEW: root-view-private
+=========================================================
+clear
+clear alarm
+clear alarm active
+clear alarm before
+clear alarm before <DATE>
+clear alarm events
+clear counters
+clear counters front-port
+clear counters front-port <RANGE>
+clear counters interface
+clear counters interface gpon-port
+clear counters interface gpon-port <id>
+clear counters interface gpon-port
+clear counters interface gpon-port ont-side
+clear counters interface gpon-port olt-side
+clear counters interface ont
+clear counters interface ont <id>
+clear counters interface ont
+clear counters interface ont ont-side
+clear counters interface ont olt-side
+clear counters plc-front-port
+clear counters plc-front-port <RANGE>
+clear counters plc-mgmt-pon-port
+clear counters plc-mgmt-pon-port <RANGE>
+clear counters plc-pon-port
+clear counters plc-pon-port <RANGE>
+clear counters plc-slot-port
+clear counters plc-slot-port <RANGE>
+clear counters slot-port
+clear counters slot-port <RANGE>
+clear counters stack-port
+clear counters stack-port <RANGE>
+clear downstream-ber interface gpon-port
+clear downstream-ber interface gpon-port <id>
+clear downstream-ber interface ont
+clear downstream-ber interface ont <id>
+clear log
+clear log file
+clear log file <FILE>
+clear mac
+clear mac address-table
+clear mac address-table interface
+clear mac address-table interface front-port
+clear mac address-table interface front-port <RANGE>
+clear mac address-table interface port-channel
+clear mac address-table interface port-channel <RANGE>
+clear mac address-table interface slot-channel
+clear mac address-table interface slot-channel <RANGE>
+clear mac address-table pp4
+clear mac address-table slot
+clear mac address-table slot <RANGE>
+clear mac address-table vlan
+clear mac address-table vlan <VID RANGE>
+clear mac interface
+clear mac interface gpon-port
+clear mac interface gpon-port <id>
+clear mac interface ont
+clear mac interface ont <id>
+commit
+confirm
+copy
+copy <src>
+copy <dst>
+date
+date <TIME>
+date <DAY>
+date <MONTH>
+date <YEAR>
+debug
+debug alarm
+debug alarm rebuild
+debug arp
+debug arp common
+debug arp errors
+debug arp sync
+debug bonding
+debug boot
+debug boot debug-mode
+debug boot debug-mode <BYTE1>
+debug boot debug-mode <BYTE2>
+debug boot debug-mode <BYTE3>
+debug boot debug-mode <BYTE4>
+debug boot debug-mode <BYTE5>
+debug boot debug-mode <BYTE6>
+debug boot debug-mode <BYTE7>
+debug boot debug-mode <BYTE8>
+debug boot debug-mode <BYTE9>
+debug boot debug-mode <BYTE10>
+debug boot debug-mode <BYTE11>
+debug boot debug-mode <BYTE12>
+debug boot priority
+debug boot priority <PRIORITY>
+debug boot save
+debug boot unit
+debug boot unit <UNIT>
+debug cfg-manager
+debug cfg-manager errors
+debug cfg-manager routine
+debug clish
+debug clish-completion
+debug clish-errors
+debug clish-infos
+debug clish-manager
+debug clish-ptype
+debug clish-sockets
+debug clish-timers
+debug commands-dump
+debug copy
+debug cpss
+debug cpss events
+debug cscd
+debug cscd election
+debug cscd reserve
+debug cscd topology
+debug dev-exchange
+debug dev-exchange sctp-notification
+debug dhcp
+debug dhcp client
+debug dhcp common
+debug dhcp errors
+debug dhcp proxy
+debug dhcp server
+debug events
+debug events all
+debug events common
+debug events errors
+debug events general
+debug events net
+debug events port
+debug fan
+debug firmware
+debug ifm
+debug igmp
+debug igmp fdb
+debug igmp group
+debug igmp packet
+debug iprouting
+debug iprouting common
+debug iprouting errors
+debug lacp
+debug lacp packet
+debug lacp port-channel
+debug lacp port-channel <INTERFACE>
+debug lacp slot-channel
+debug lacp slot-channel <INTERFACE>
+debug lldp
+debug lldp common
+debug lldp errors
+debug lldp sync
+debug locks
+debug mac-sync
+debug mac-sync duplicate-mac
+debug mac-sync sctp-notification
+debug maep-manager
+debug maep-manager alarms
+debug maep-manager connect
+debug maep-manager transit
+debug memory
+debug memory pmchal
+debug network
+debug network errors
+debug network rx
+debug network tx
+debug packet
+debug packet rx
+debug packet tx
+debug port-states
+debug resources
+debug resources pmchal
+debug sctp
+debug sctp err
+debug sctp msg
+debug sctp pkt
+debug snmp
+debug snmp packet
+debug snmpman
+debug sntp
+debug spanning-tree
+debug spanning-tree common
+debug spanning-tree errors
+debug spanning-tree sync
+debug stack
+debug stack elections
+debug stack reserve-channel
+debug storage
+debug storage garbage-collect
+debug syslog
+debug systemdb
+debug systemdb insert
+debug systemdb query
+debug systemdb sync
+debug systemdb tree
+debug test
+debug test 10G-MAC
+debug test 10G-MAC <PORT>
+debug test cfgmgr
+debug test clish-wait
+debug test clish-wait <TIME>
+debug test cpu-code
+debug test cpu-code table
+debug test cpu-code table <CPU CODE>
+debug test cpu-code target-devices
+debug test cscd
+debug test cscd delay
+debug test cscd delay clear
+debug test cscd delay off
+debug test cscd delay on
+debug test cscd delay show
+debug test designated-members
+debug test fw-container-install
+debug test fw-container-install <HOST>
+debug test fw-container-install <FILE>
+debug test fw-container-install <SELECT>
+debug test fw-container-install <RESTART>
+debug test fw-container-install <NSSR>
+debug test logger
+debug test logger <MESSAGE>
+debug test mac
+debug test mac all
+debug test mac exclude
+debug test mac exclude interface
+debug test mac exclude interface front-port
+debug test mac exclude interface front-port <INTERFACE>
+debug test mac exclude interface port-channel
+debug test mac exclude interface port-channel <INTERFACE>
+debug test mac exclude interface slot-channel
+debug test mac exclude interface slot-channel <INTERFACE>
+debug test mac exclude mac
+debug test mac exclude mac <MAC VALUE>
+debug test mac exclude mac <MAC MASK>
+debug test mac exclude vlan
+debug test mac exclude vlan <VID>
+debug test mac include
+debug test mac include interface
+debug test mac include interface front-port
+debug test mac include interface front-port <INTERFACE>
+debug test mac include interface port-channel
+debug test mac include interface port-channel <INTERFACE>
+debug test mac include interface slot-channel
+debug test mac include interface slot-channel <INTERFACE>
+debug test mac include mac
+debug test mac include mac <MAC VALUE>
+debug test mac include mac <MAC MASK>
+debug test mac include vlan
+debug test mac include vlan <VID>
+debug test maep
+debug test maep counters
+debug test maep counters cfg-mgr
+debug test maep counters cli
+debug test maep counters cli-mgr
+debug test maep counters maep-mgr
+debug test maep counters session-mgr
+debug test maep counters snmp-mgr
+debug test maep counters systemdb
+debug test phy
+debug test phy page
+debug test phy page read
+debug test phy page read <PAGE>
+debug test phy page read <PORT>
+debug test phy page read <REGISTER>
+debug test phy page write
+debug test phy page write <PAGE>
+debug test phy page write <PORT>
+debug test phy page write <REGISTER>
+debug test phy page write <DATA>
+debug test phy read
+debug test phy read <PORT>
+debug test phy read <REGISTER>
+debug test phy write
+debug test phy write <PORT>
+debug test phy write <REGISTER>
+debug test phy write <DATA>
+debug test prbs-pcs
+debug test prbs-pcs checker
+debug test prbs-pcs checker disable
+debug test prbs-pcs checker disable <PORT NUMBER>
+debug test prbs-pcs checker disable <CORE NUMBER>
+debug test prbs-pcs checker enable
+debug test prbs-pcs checker enable <PORT NUMBER>
+debug test prbs-pcs checker enable <CORE NUMBER>
+debug test prbs-pcs cyclic
+debug test prbs-pcs cyclic <PORT NUMBER>
+debug test prbs-pcs cyclic <CORE NUMBER>
+debug test prbs-pcs generator
+debug test prbs-pcs generator disable
+debug test prbs-pcs generator disable <PORT NUMBER>
+debug test prbs-pcs generator disable <CORE NUMBER>
+debug test prbs-pcs generator enable
+debug test prbs-pcs generator enable <PORT NUMBER>
+debug test prbs-pcs generator enable <CORE NUMBER>
+debug test prbs-pcs prbs23
+debug test prbs-pcs prbs23 <PORT NUMBER>
+debug test prbs-pcs prbs23 <CORE NUMBER>
+debug test prbs-pcs prbs7
+debug test prbs-pcs prbs7 <PORT NUMBER>
+debug test prbs-pcs prbs7 <CORE NUMBER>
+debug test prbs-pcs show
+debug test prbs-pcs show <PORT NUMBER>
+debug test prbs-pcs show <CORE NUMBER>
+debug test prbs-serdes
+debug test prbs-serdes disable
+debug test prbs-serdes disable <SERDES NUMBER>
+debug test prbs-serdes disable <CORE NUMBER>
+debug test prbs-serdes prbs23
+debug test prbs-serdes prbs23 <SERDES NUMBER>
+debug test prbs-serdes prbs23 <CORE NUMBER>
+debug test prbs-serdes prbs7
+debug test prbs-serdes prbs7 <SERDES NUMBER>
+debug test prbs-serdes prbs7 <CORE NUMBER>
+debug test prbs-serdes show
+debug test prbs-serdes show <SERDES NUMBER>
+debug test prbs-serdes show <CORE NUMBER>
+debug test register
+debug test register read
+debug test register read <REGISTER>
+debug test register read <PORT GROUP INDEX>
+debug test register write
+debug test register write <REGISTER>
+debug test register write <DATA>
+debug test register write <PORT GROUP INDEX>
+debug test relay
+debug test relay off
+debug test relay off <NUMBER>
+debug test relay on
+debug test relay on <NUMBER>
+debug test tcam
+debug test trunk
+debug test trunk <TRUNK_ID>
+debug test xphy
+debug test xphy read
+debug test xphy read <PORT>
+debug test xphy read <MMD>
+debug test xphy read <REGISTER>
+debug test xphy txenable
+debug test xphy txenable read
+debug test xphy txenable read <PORT>
+debug test xphy txenable state
+debug test xphy txenable state <PORT>
+debug test xphy txenable write
+debug test xphy txenable write <PORT>
+debug test xphy txenable write <1_0009h>
+debug test xphy txenable write <1_0000h>
+debug test xphy txenable write <3_0000h>
+debug test xphy txenable write <4_0000h>
+debug test xphy txenable write <1_C301h>
+debug test xphy txenable write <1_D005h>
+debug test xphy write
+debug test xphy write <PORT>
+debug test xphy write <MMD>
+debug test xphy write <REGISTER>
+debug test xphy write <DATA>
+debug test-link
+debug test-link clear
+debug test-link run
+debug test-link run <UNIT>
+debug test-link run <SLOT>
+debug test-link run <TIME>
+debug test-link run <PRBS>
+debug test-link show
+debug top-manager
+debug vlan
+debug vlan pvid
+debug vlan-manager
+default
+default pp4x
+default profiles
+default profiles olt
+default profiles ont
+default slot
+default slot <SLOT NUMBER>
+firmware
+firmware confirm
+firmware ont
+firmware ont auto
+firmware ont auto update
+firmware ont auto update add
+firmware ont auto update add <description>
+firmware ont auto update add <equipmentID>
+firmware ont auto update add <firmwareVersion>
+firmware ont auto update add <filename>
+firmware ont auto update add <mode>
+firmware ont auto update clear
+firmware ont auto update delete
+firmware ont auto update delete <description>
+firmware ont auto update edit
+firmware ont auto update edit <name_value>
+firmware ont auto update edit equipmentID
+firmware ont auto update edit equipmentID <eqid_value>
+firmware ont auto update edit firmwareVersion
+firmware ont auto update edit firmwareVersion <fwver_value>
+firmware ont auto update edit filename
+firmware ont auto update edit filename <filename_value>
+firmware ont auto update edit newDescription
+firmware ont auto update edit newDescription <new_name_value>
+firmware ont auto update edit mode
+firmware ont auto update edit mode <mode_value>
+firmware ont auto update immediate
+firmware ont auto update postpone
+firmware ont delete
+firmware ont delete image
+firmware ont delete image <FILE NAME>
+firmware select
+firmware select image-alternate
+firmware select image-alternate unit
+firmware select image-alternate unit <UNIT>
+firmware select image-current
+firmware select image-current unit
+firmware select image-current unit <UNIT>
+no
+no debug
+no debug arp
+no debug arp common
+no debug arp errors
+no debug arp sync
+no debug bonding
+no debug boot
+no debug boot debug-mode
+no debug boot priority
+no debug boot unit
+no debug cfg-manager
+no debug cfg-manager errors
+no debug cfg-manager routine
+no debug clish
+no debug clish-completion
+no debug clish-errors
+no debug clish-infos
+no debug clish-manager
+no debug clish-ptype
+no debug clish-sockets
+no debug clish-timers
+no debug copy
+no debug cpss
+no debug cpss events
+no debug cscd
+no debug cscd election
+no debug cscd reserve
+no debug cscd topology
+no debug dev-exchange
+no debug dev-exchange sctp-notification
+no debug dhcp
+no debug dhcp client
+no debug dhcp common
+no debug dhcp errors
+no debug dhcp proxy
+no debug dhcp server
+no debug events
+no debug events all
+no debug events common
+no debug events errors
+no debug events general
+no debug events net
+no debug events port
+no debug fan
+no debug firmware
+no debug ifm
+no debug igmp
+no debug igmp fdb
+no debug igmp group
+no debug igmp packet
+no debug iprouting
+no debug iprouting common
+no debug iprouting errors
+no debug lacp
+no debug lacp packet
+no debug lacp port-channel
+no debug lacp port-channel <INTERFACE>
+no debug lacp slot-channel
+no debug lacp slot-channel <INTERFACE>
+no debug lldp
+no debug lldp common
+no debug lldp errors
+no debug lldp sync
+no debug locks
+no debug mac-sync
+no debug mac-sync duplicate-mac
+no debug mac-sync sctp-notification
+no debug maep-manager
+no debug maep-manager alarms
+no debug maep-manager connect
+no debug maep-manager transit
+no debug network
+no debug network errors
+no debug network rx
+no debug network tx
+no debug packet
+no debug packet rx
+no debug packet tx
+no debug port-states
+no debug sctp
+no debug sctp err
+no debug sctp msg
+no debug sctp pkt
+no debug snmp
+no debug snmp packet
+no debug snmpman
+no debug sntp
+no debug spanning-tree
+no debug spanning-tree common
+no debug spanning-tree errors
+no debug spanning-tree sync
+no debug stack
+no debug stack elections
+no debug stack reserve-channel
+no debug syslog
+no debug systemdb
+no debug systemdb insert
+no debug systemdb query
+no debug systemdb sync
+no debug systemdb tree
+no debug top-manager
+no debug vlan
+no debug vlan pvid
+no debug vlan-manager
+no firmware
+no firmware ont
+no firmware ont auto
+no firmware ont auto update
+no firmware ont auto update enable
+no ont
+no ont autofind
+no ont autofind interface
+no ont autofind interface gpon-port
+no ont autofind interface gpon-port <id>
+no terminal
+no terminal monitor
+ont
+ont autofind
+ont autofind interface
+ont autofind interface gpon-port
+ont autofind interface gpon-port <id>
+ping
+ping <destination>
+reboot
+reboot master
+reboot non-stop
+reboot slave
+reboot slot
+reboot slot <SLOT NUMBER>
+reboot system
+reconfigure
+reconfigure interface
+reconfigure interface gpon-port
+reconfigure interface gpon-port <if_gpon>
+reconfigure interface ont
+reconfigure interface ont <ont_range>
+reconfigure olt
+reconfigure olt slot
+reconfigure olt slot <slot_range>
+reconfigure olt device
+reconfigure olt device <device_id>
+restore
+rollback
+send
+send omci
+send omci pptp-video-uni
+send omci pptp-video-uni administrative-state
+send omci pptp-video-uni administrative-state disable
+send omci pptp-video-uni administrative-state disable interface
+send omci pptp-video-uni administrative-state disable interface ont
+send omci pptp-video-uni administrative-state disable interface ont <ont_range>
+send omci pptp-video-uni administrative-state enable
+send omci pptp-video-uni administrative-state enable interface
+send omci pptp-video-uni administrative-state enable interface ont
+send omci pptp-video-uni administrative-state enable interface ont <ont_range>
+send omci reset
+send omci reset interface
+send omci reset interface ont
+send omci reset interface ont <ont_range>
+send omci restore
+send omci restore interface
+send omci restore interface ont
+send omci restore interface ont <ont_range>
+send ploam
+send ploam ber-interval
+send ploam ber-interval <ber_interval_val>
+send ploam ber-interval
+send ploam ber-interval gpon-port
+send ploam ber-interval gpon-port <id>
+send ploam ber-interval ont
+send ploam ber-interval ont <id>
+send ploam disable-sn
+send ploam disable-sn mode
+send ploam disable-sn mode
+send ploam disable-sn mode enable-all
+send ploam disable-sn mode enable-all gpon-port
+send ploam disable-sn mode enable-all gpon-port <id>
+send ploam disable-sn mode enable
+send ploam disable-sn mode enable ont
+send ploam disable-sn mode enable ont
+send ploam disable-sn mode enable ont from-configuration
+send ploam disable-sn mode enable ont from-configuration gpon-port
+send ploam disable-sn mode enable ont from-configuration gpon-port <id>
+send ploam disable-sn mode enable ont serial
+send ploam disable-sn mode enable ont serial <serial_val>
+send ploam disable-sn mode enable ont serial gpon-port
+send ploam disable-sn mode enable ont serial gpon-port <gpon_port_val>
+send ploam disable-sn mode enable ont <id>
+send ploam disable-sn mode disable
+send ploam disable-sn mode disable ont
+send ploam disable-sn mode disable ont
+send ploam disable-sn mode disable ont from-configuration
+send ploam disable-sn mode disable ont from-configuration gpon-port
+send ploam disable-sn mode disable ont from-configuration gpon-port <id>
+send ploam disable-sn mode disable ont serial
+send ploam disable-sn mode disable ont serial <serial_val>
+send ploam disable-sn mode disable ont serial gpon-port
+send ploam disable-sn mode disable ont serial gpon-port <gpon_port_val>
+send ploam disable-sn mode disable ont <id>
+show
+show accounting
+show alarm
+show alarm active
+show alarm active debug
+show alarm configuration
+show alarm configuration <type_val>
+show alarm events
+show alarm events debug
+show arp
+show authentication
+show authentication methods
+show backup
+show backup interface
+show boot
+show boot candidate-config
+show boot running-config
+show bridging
+show bridging front-port
+show bridging front-port <RANGE>
+show bridging plc-front-port
+show bridging plc-front-port <RANGE>
+show bridging plc-pon-port
+show bridging plc-pon-port <RANGE>
+show bridging plc-slot-channel
+show bridging plc-slot-channel <RANGE>
+show bridging port-channel
+show bridging port-channel <RANGE>
+show bridging slot-channel
+show bridging slot-channel <RANGE>
+show candidate-config
+show candidate-config all
+show channel-group
+show channel-group counters
+show channel-group counters <group number>
+show channel-group hw
+show channel-group hw <group number>
+show channel-group lacp
+show channel-group lacp <group number>
+show channel-group summary
+show channel-group summary <group number>
+show cmd-dispatcher
+show cntrset
+show cntrset <SET>
+show date
+show evt-dispatcher
+show firmware
+show firmware ont
+show firmware ont auto
+show firmware ont auto update
+show firmware ont auto update entries
+show firmware ont auto update state
+show gpon
+show gpon network
+show gpon olt
+show history
+show interface
+show interface front-port
+show interface front-port <RANGE>
+show interface front-port
+show interface front-port counters
+show interface front-port counters detail
+show interface front-port status
+show interface front-port utilization
+show interface front-port vlans
+show interface gpon-port
+show interface gpon-port <id>
+show interface gpon-port
+show interface gpon-port state
+show interface gpon-port optics
+show interface gpon-port optics
+show interface gpon-port optics state
+show interface gpon-port optics configuration
+show interface gpon-port redundancy
+show interface gpon-port igmp
+show interface gpon-port igmp groups
+show interface gpon-port configuration
+show interface gpon-port counters
+show interface gpon-port counters v-interface
+show interface gpon-port downstream-ber
+show interface ont
+show interface ont <id>
+show interface ont
+show interface ont connections
+show interface ont laser
+show interface ont ports
+show interface ont rssi
+show interface ont state
+show interface ont configuration
+show interface ont configuration verbose
+show interface ont counters
+show interface ont counters <type>
+show interface ont online
+show interface ont online <online_sort>
+show interface ont offline
+show interface ont unactivated
+show interface ont configured
+show interface ont unconfigured
+show interface ont connected
+show interface ont downstream-ber
+show interface plc-front-port
+show interface plc-front-port <RANGE>
+show interface plc-front-port
+show interface plc-front-port counters
+show interface plc-front-port counters detail
+show interface plc-front-port status
+show interface plc-front-port vlans
+show interface plc-front-port utilization
+show interface plc-mgmt-pon-port
+show interface plc-mgmt-pon-port <RANGE>
+show interface plc-mgmt-pon-port
+show interface plc-mgmt-pon-port counters
+show interface plc-mgmt-pon-port counters detail
+show interface plc-mgmt-pon-port status
+show interface plc-mgmt-pon-port vlans
+show interface plc-mgmt-pon-port utilization
+show interface plc-pon-port
+show interface plc-pon-port <RANGE>
+show interface plc-pon-port
+show interface plc-pon-port counters
+show interface plc-pon-port counters detail
+show interface plc-pon-port status
+show interface plc-pon-port vlans
+show interface plc-pon-port utilization
+show interface plc-slot-port
+show interface plc-slot-port <RANGE>
+show interface plc-slot-port
+show interface plc-slot-port counters
+show interface plc-slot-port counters detail
+show interface plc-slot-port status
+show interface plc-slot-port vlans
+show interface plc-slot-port utilization
+show interface port-channel
+show interface port-channel <RANGE>
+show interface port-channel
+show interface port-channel status
+show interface port-channel vlans
+show interface port-channel utilization
+show interface port-channel counters
+show interface slot-channel
+show interface slot-channel <RANGE>
+show interface slot-channel
+show interface slot-channel status
+show interface slot-channel vlans
+show interface slot-channel utilization
+show interface slot-channel counters
+show interface slot-port
+show interface slot-port <RANGE>
+show interface slot-port
+show interface slot-port status
+show interface slot-port utilization
+show interface slot-port vlans
+show interface slot-port counters
+show interface stack-channel
+show interface stack-channel <RANGE>
+show interface stack-channel status
+show interface stack-port
+show interface stack-port <RANGE>
+show interface stack-port
+show interface stack-port counters
+show interface stack-port counters detail
+show interface stack-port status
+show interface stack-port utilization
+show interface stack-port vlans
+show ip
+show ip arp
+show ip arp inspection
+show ip dhcp-snooping
+show ip dhcp-snooping table
+show ip igmp
+show ip igmp proxy
+show ip igmp proxy report
+show ip igmp snooping
+show ip igmp snooping groups
+show ip igmp snooping groups vlan
+show ip igmp snooping groups vlan <VLAN ID>
+show ip igmp snooping vlan
+show ip igmp snooping vlan config
+show ip igmp snooping vlan config <VID RANGE>
+show ip igmp snooping vlan hosts
+show ip igmp snooping vlan hosts <VID RANGE>
+show ip igmp snooping vlan mrouter
+show ip igmp snooping vlan mrouter <VID RANGE>
+show ip route
+show ip route address
+show ip route address <A.B.C.D/n>
+show ip route address <longer-prefixes>
+show ip route connected
+show ip route static
+show ip snmp
+show ip snmp agent
+show ip snmp agent users
+show ip ssh
+show ip telnet
+show isolation
+show isolation groups
+show isolation groups <GROUP RANGE>
+show isolation vlans
+show isolation vlans <VID RANGE>
+show lldp
+show lldp configuration
+show lldp configuration front-port
+show lldp configuration front-port <RANGE>
+show lldp local
+show lldp local front-port
+show lldp local front-port <RANGE>
+show lldp neighbor
+show lldp neighbor front-port
+show lldp neighbor front-port <RANGE>
+show lldp statistics
+show lldp statistics front-port
+show lldp statistics front-port <RANGE>
+show log
+show log <FILE>
+show log <FILE> grep
+show log <FILE> grep <EXP>
+show logging
+show logging config
+show mac
+show mac all
+show mac all
+show mac all include
+show mac all include
+show mac all include vlan
+show mac all include vlan <vlan_value>
+show mac all include mac-address
+show mac all include mac-address <mac_addr_value>
+show mac all exclude
+show mac all exclude
+show mac all exclude vlan
+show mac all exclude vlan <vlan_value>
+show mac all exclude mac-address
+show mac all exclude mac-address <mac_addr_value>
+show mac interface
+show mac interface
+show mac interface front-port
+show mac interface front-port <FRONT_PORT>
+show mac interface slot-channel
+show mac interface slot-channel <SLOT_CHANNEL>
+show mac interface port-channel
+show mac interface port-channel <PORT_CHANNEL>
+show mac interface plc-front-port
+show mac interface plc-front-port <PLC_SLOT_FRONT_PORT>
+show mac interface plc-slot-port
+show mac interface plc-slot-port <PLC_SLOT_PORT>
+show mac interface plc-mgmt-pon-port
+show mac interface plc-mgmt-pon-port <PLC_MGMT_PON_PORT>
+show mac interface plc-pon-port
+show mac interface plc-pon-port <PLC_SLOT_PON_PORT>
+show mac interface gpon-port
+show mac interface gpon-port <SLOT_PON_PORT>
+show mac interface gpon-port
+show mac interface gpon-port include
+show mac interface gpon-port include
+show mac interface gpon-port include serial
+show mac interface gpon-port include serial <ont_serial_value>
+show mac interface gpon-port include ont-id
+show mac interface gpon-port include ont-id <ont_id_value>
+show mac interface gpon-port include gem
+show mac interface gpon-port include gem <gem_port_value>
+show mac interface gpon-port include u-vid
+show mac interface gpon-port include u-vid <u_vid_value>
+show mac interface gpon-port include c-vid
+show mac interface gpon-port include c-vid <c_vid_value>
+show mac interface gpon-port include s-vid
+show mac interface gpon-port include s-vid <s_vid_value>
+show mac interface gpon-port include mac-address
+show mac interface gpon-port include mac-address <mac_addr_value>
+show mac interface gpon-port exclude
+show mac interface gpon-port exclude
+show mac interface gpon-port exclude serial
+show mac interface gpon-port exclude serial <ont_serial_value>
+show mac interface gpon-port exclude ont-id
+show mac interface gpon-port exclude ont-id <ont_id_value>
+show mac interface gpon-port exclude gem
+show mac interface gpon-port exclude gem <gem_port_value>
+show mac interface gpon-port exclude u-vid
+show mac interface gpon-port exclude u-vid <u_vid_value>
+show mac interface gpon-port exclude c-vid
+show mac interface gpon-port exclude c-vid <c_vid_value>
+show mac interface gpon-port exclude s-vid
+show mac interface gpon-port exclude s-vid <s_vid_value>
+show mac interface gpon-port exclude mac-address
+show mac interface gpon-port exclude mac-address <mac_addr_value>
+show mac interface ont
+show mac interface ont <ONT_RANGE>
+show mac interface ont
+show mac interface ont include
+show mac interface ont include
+show mac interface ont include gem
+show mac interface ont include gem <gem_port_value>
+show mac interface ont include u-vid
+show mac interface ont include u-vid <u_vid_value>
+show mac interface ont include c-vid
+show mac interface ont include c-vid <c_vid_value>
+show mac interface ont include s-vid
+show mac interface ont include s-vid <s_vid_value>
+show mac interface ont include mac-address
+show mac interface ont include mac-address <mac_addr_value>
+show mac interface ont exclude
+show mac interface ont exclude
+show mac interface ont exclude gem
+show mac interface ont exclude gem <gem_port_value>
+show mac interface ont exclude u-vid
+show mac interface ont exclude u-vid <u_vid_value>
+show mac interface ont exclude c-vid
+show mac interface ont exclude c-vid <c_vid_value>
+show mac interface ont exclude s-vid
+show mac interface ont exclude s-vid <s_vid_value>
+show mac interface ont exclude mac-address
+show mac interface ont exclude mac-address <mac_addr_value>
+show mac pp4
+show mac pp4 exclude
+show mac pp4 exclude interface
+show mac pp4 exclude interface front-port
+show mac pp4 exclude interface front-port <INTERFACE>
+show mac pp4 exclude interface port-channel
+show mac pp4 exclude interface port-channel <INTERFACE>
+show mac pp4 exclude interface slot-channel
+show mac pp4 exclude interface slot-channel <INTERFACE>
+show mac pp4 exclude mac-address
+show mac pp4 exclude mac-address <MAC VALUE>
+show mac pp4 exclude mac-address <MAC MASK>
+show mac pp4 exclude vlan
+show mac pp4 exclude vlan <VID>
+show mac pp4 include
+show mac pp4 include interface
+show mac pp4 include interface front-port
+show mac pp4 include interface front-port <INTERFACE>
+show mac pp4 include interface port-channel
+show mac pp4 include interface port-channel <INTERFACE>
+show mac pp4 include interface slot-channel
+show mac pp4 include interface slot-channel <INTERFACE>
+show mac pp4 include mac-address
+show mac pp4 include mac-address <MAC VALUE>
+show mac pp4 include mac-address <MAC MASK>
+show mac pp4 include vlan
+show mac pp4 include vlan <VID>
+show mac slot
+show mac slot <SLOT NUMBER>
+show mac slot
+show mac slot include
+show mac slot include vlan
+show mac slot include vlan <VID INCLUDE>
+show mac slot include mac-address
+show mac slot include mac-address <MAC VALUE INCLUDE>
+show mac slot include mac-address <MAC MASK INCLUDE>
+show mac slot include interface
+show mac slot include interface
+show mac slot include interface front-port
+show mac slot include interface front-port <INTERFACE FRONT INCLUDE>
+show mac slot include interface mgmt-pon-port
+show mac slot include interface mgmt-pon-port <INTERFACE MGMT INCLUDE>
+show mac slot include interface pon-port
+show mac slot include interface pon-port <INTERFACE PON INCLUDE>
+show mac slot include interface slot-channel
+show mac slot include interface slot-channel <INTERFACE SLOT INCLUDE>
+show mac slot exclude
+show mac slot exclude vlan
+show mac slot exclude vlan <VID EXCLUDE>
+show mac slot exclude mac-address
+show mac slot exclude mac-address <MAC VALUE EXCLUDE>
+show mac slot exclude mac-address <MAC MASK EXCLUDE>
+show mac slot exclude interface
+show mac slot exclude interface
+show mac slot exclude interface front-port
+show mac slot exclude interface front-port <INTERFACE FRONT EXCLUDE>
+show mac slot exclude interface mgmt-pon-port
+show mac slot exclude interface mgmt-pon-port <INTERFACE MGMT EXCLUDE>
+show mac slot exclude interface pon-port
+show mac slot exclude interface pon-port <INTERFACE PON EXCLUDE>
+show mac slot exclude interface slot-channel
+show mac slot exclude interface slot-channel <INTERFACE SLOT EXCLUDE>
+show management
+show management access-list
+show privileges
+show profile
+show profile address-table
+show profile address-table <id>
+show profile address-table <id> s-vlan
+show profile address-table <id> s-vlan <s_vlan_value>
+show profile cross-connect
+show profile cross-connect <id>
+show profile cross-connect <id> verbose
+show profile dba
+show profile dba <id>
+show profile dhcp-ra
+show profile dhcp-ra <id>
+show profile management
+show profile management <id>
+show profile ports
+show profile ports <id>
+show profile pppoe-ia
+show profile pppoe-ia <id>
+show profile scripting
+show profile scripting <id>
+show profile shaping
+show profile shaping <id>
+show profile vlan
+show profile vlan <id>
+show qos
+show queue
+show queue <QUEUE>
+show running-config
+show running-config aaa
+show running-config aaa all
+show running-config access-list
+show running-config access-list slot
+show running-config access-list slot <SLOT_NUMBER>
+show running-config access-list slot all
+show running-config alarm
+show running-config alarm all
+show running-config all
+show running-config backup
+show running-config backup all
+show running-config backup-interface
+show running-config backup-interface all
+show running-config cli
+show running-config cli all
+show running-config clock
+show running-config clock all
+show running-config dhclient
+show running-config dhclient all
+show running-config diff
+show running-config fan
+show running-config fan all
+show running-config gpon
+show running-config gpon network
+show running-config gpon network slot
+show running-config gpon network slot <SLOT_NUMBER>
+show running-config gpon network all
+show running-config gpon olt
+show running-config gpon olt slot
+show running-config gpon olt slot <SLOT_NUMBER>
+show running-config gpon olt all
+show running-config hostname
+show running-config hostname all
+show running-config interface
+show running-config interface
+show running-config interface ont
+show running-config interface ont <id>
+show running-config interface ont all
+show running-config interface gpon-port
+show running-config interface gpon-port <id>
+show running-config interface gpon-port all
+show running-config interface front-port
+show running-config interface front-port <RANGE>
+show running-config interface front-port all
+show running-config interface plc-front-port
+show running-config interface plc-front-port <IF_NUMBER>
+show running-config interface plc-front-port all
+show running-config interface plc-mgmt-pon-port
+show running-config interface plc-mgmt-pon-port <IF_NUMBER>
+show running-config interface plc-mgmt-pon-port all
+show running-config interface plc-pon-port
+show running-config interface plc-pon-port <IF_NUMBER>
+show running-config interface plc-pon-port all
+show running-config interface plc-slot-channel
+show running-config interface plc-slot-channel <IF_NUMBER>
+show running-config interface plc-slot-channel all
+show running-config interface plc-slot-port
+show running-config interface plc-slot-port <IF_NUMBER>
+show running-config interface plc-slot-port all
+show running-config interface port-channel
+show running-config interface port-channel <RANGE>
+show running-config interface port-channel all
+show running-config interface slot-channel
+show running-config interface slot-channel <RANGE>
+show running-config interface slot-channel all
+show running-config interface slot-port
+show running-config interface slot-port <RANGE>
+show running-config interface slot-port all
+show running-config interface stack-port
+show running-config interface stack-port <RANGE>
+show running-config interface stack-port all
+show running-config ip
+show running-config ip arp
+show running-config ip arp inspection
+show running-config ip arp inspection all
+show running-config ip igmp
+show running-config ip igmp all
+show running-config ip igmp slot
+show running-config ip igmp slot <SLOT_NUMBER>
+show running-config ip igmp slot all
+show running-config ip route
+show running-config ip route all
+show running-config ip route slot
+show running-config ip route slot <SLOT_NUMBER>
+show running-config ip route slot all
+show running-config ip snmp
+show running-config ip snmp all
+show running-config ip sntp
+show running-config ip sntp all
+show running-config isolation
+show running-config isolation all
+show running-config journal
+show running-config journal all
+show running-config lldp
+show running-config lldp all
+show running-config logging
+show running-config logging all
+show running-config mac
+show running-config mac address-table
+show running-config mac address-table all
+show running-config management
+show running-config management all
+show running-config mirror
+show running-config mirror all
+show running-config mirror slot
+show running-config mirror slot <SLOT_NUMBER>
+show running-config mirror slot all
+show running-config port-channel
+show running-config port-channel load-balance
+show running-config port-channel load-balance all
+show running-config profile
+show running-config profile
+show running-config profile address-table
+show running-config profile cross-connect
+show running-config profile dba
+show running-config profile dhcp-ra
+show running-config profile management
+show running-config profile ports
+show running-config profile pppoe-ia
+show running-config profile scripting
+show running-config profile shaping
+show running-config profile vlan
+show running-config profile <name>
+show running-config profile all
+show running-config qos
+show running-config qos all
+show running-config qos slot
+show running-config qos slot <SLOT_NUMBER>
+show running-config qos slot all
+show running-config selective-qinq
+show running-config selective-qinq all
+show running-config shelf
+show running-config shelf all
+show running-config slot
+show running-config slot <SLOT_NUMBER>
+show running-config slot all
+show running-config spanning-tree
+show running-config spanning-tree all
+show running-config stack
+show running-config stack all
+show running-config template
+show running-config template <id>
+show running-config template all
+show running-config user
+show running-config user all
+show running-config vlan
+show running-config vlan
+show running-config vlan <VID RANGE>
+show running-config vlan <VID RANGE> all
+show running-config vlan all
+show selective-qinq
+show selective-qinq common
+show selective-qinq list
+show selective-qinq list <LIST NAME>
+show selective-qinq lists
+show sfp
+show sfp front-port
+show sfp front-port <RANGE>
+show shelf
+show slot
+show slot <range>
+show slot
+show slot information
+show slot gpon
+show slot gpon olt
+show slot gpon
+show slot gpon state
+show slot gpon configuration
+show slot gpon igmp
+show slot gpon igmp <igmp_gpon_if>
+show slot gpon pppoe
+show slot gpon pppoe <pppoe_gpon_if>
+show slot cpu
+show slot cpu detailed
+show slot access-list
+show slot channel-group
+show slot channel-group lacp
+show slot isolation
+show slot isolation
+show slot isolation groups
+show slot isolation groups <GROUP_RANGE>
+show slot isolation vlans
+show slot isolation vlans <VID_RANGE>
+show slot qos
+show slot qos
+show slot qos cpu
+show slot qos general
+show slot rate-limits
+show slot shaping
+show slot ip
+show slot ip
+show slot ip igmp
+show slot ip igmp
+show slot ip igmp snooping
+show slot ip igmp snooping
+show slot ip igmp snooping groups
+show slot ip igmp snooping groups <VID_RANGE>
+show slot ip igmp snooping vlan
+show slot ip igmp snooping vlan config
+show slot ip igmp snooping vlan config <VID_RANGE>
+show slot ip igmp proxy
+show slot ip igmp proxy report
+show slot ip arp
+show slot ip arp
+show slot ip arp inspection
+show slot ip arp table
+show slot ip dhcp-snooping
+show slot ip dhcp-snooping table
+show slot terminal-vlan
+show slot cntrset
+show slot cntrset <set>
+show spanning-tree
+show spanning-tree active
+show spanning-tree active instance
+show spanning-tree active instance <id>
+show spanning-tree bpdu
+show spanning-tree bridge
+show spanning-tree bridge instance
+show spanning-tree bridge instance <id>
+show spanning-tree interface
+show spanning-tree interface front-port
+show spanning-tree interface front-port <RANGE>
+show spanning-tree interface port-channel
+show spanning-tree interface port-channel <RANGE>
+show spanning-tree mst-configuration
+show stack
+show startup-config
+show storage
+show storage bad-blocks
+show storage bad-blocks partitions
+show storage bad-blocks partitions <UNIT>
+show storage bad-blocks total
+show storage bad-blocks total <UNIT>
+show system
+show system environment
+show system environment detailed
+show system information
+show system information <UNIT>
+show tacacs
+show template
+show template <id>
+show template <id> verbose
+show terminal-vlan
+show uptime
+show users
+show users who
+show vlan
+show vlan <VID RANGE>
+show vlan include
+show vlan include
+show vlan include slot
+show vlan include slot <slot_num>
+show vlan include pp
+stack
+stack master
+stack master change
+stack sync-allow
+terminal
+terminal monitor
+terminal monitor <SEVERITY>
+traceroute
+traceroute <destination>
+update
+update ont
+update ont <ont_range>
+update ont filename
+update ont filename <filename_value>
+=========================================================
+VIEW: root-view-public
+=========================================================
+configure
+configure terminal
+=========================================================
+VIEW: scripting-view
+=========================================================
+description
+description <VALUE>
+do
+exit
+name
+name <VALUE>
+script
+script append
+script append <VALUE>
+script clear
+script edit
+script load
+script load <filename>
+script load <host>
+script load <port>
+script show
+script upload
+script upload <filename>
+script upload <host>
+script upload <port>
+top
+=========================================================
+VIEW: selective-qinq-configure-view
+=========================================================
+add-tag
+add-tag <svlan>
+add-tag <S-VLAN>
+add-tag <cvlan>
+add-tag <C-VLAN RANGE>
+clear
+do
+exit
+no
+no add-tag
+no add-tag <svlan>
+no add-tag <S-VLAN>
+no add-tag <cvlan>
+no add-tag <C-VLAN RANGE>
+no overwrite-tag
+no overwrite-tag <new-vlan>
+no overwrite-tag <NEW-VLAN>
+no overwrite-tag <old-vlan>
+no overwrite-tag <OLD-VLAN RANGE>
+no overwrite-tag <RULE_DIRECTION>
+overwrite-tag
+overwrite-tag <new-vlan>
+overwrite-tag <NEW-VLAN>
+overwrite-tag <old-vlan>
+overwrite-tag <OLD-VLAN RANGE>
+overwrite-tag <RULE_DIRECTION>
+remove
+remove <RULE_INDEX>
+top
+=========================================================
+VIEW: shaping-view
+=========================================================
+description
+description <VALUE>
+do
+downstream
+downstream one-policer
+downstream policer
+downstream policer <id>
+downstream policer <id> peak-rate
+downstream policer <id> peak-rate <rate>
+downstream policer <id> enable
+exit
+name
+name <VALUE>
+no
+no description
+no downstream
+no downstream one-policer
+no downstream policer
+no downstream policer <id>
+no downstream policer <id> peak-rate
+no downstream policer <id> enable
+no upstream
+no upstream <id>
+no upstream <id> commited-rate
+no upstream <id> peak-rate
+no upstream <id> enable
+no upstream broadcast
+no upstream broadcast <id>
+no upstream broadcast <id> commited-rate
+no upstream broadcast <id> peak-rate
+no upstream broadcast <id> enable
+no upstream multicast
+no upstream multicast <id>
+no upstream multicast <id> commited-rate
+no upstream multicast <id> peak-rate
+no upstream multicast <id> enable
+no upstream unicast
+no upstream unicast <id>
+no upstream unicast <id> commited-rate
+no upstream unicast <id> peak-rate
+no upstream unicast <id> enable
+top
+upstream
+upstream <id>
+upstream <id> commited-rate
+upstream <id> commited-rate <crate>
+upstream <id> peak-rate
+upstream <id> peak-rate <prate>
+upstream <id> enable
+upstream broadcast
+upstream broadcast <id>
+upstream broadcast <id> commited-rate
+upstream broadcast <id> commited-rate <crate>
+upstream broadcast <id> peak-rate
+upstream broadcast <id> peak-rate <prate>
+upstream broadcast <id> enable
+upstream multicast
+upstream multicast <id>
+upstream multicast <id> commited-rate
+upstream multicast <id> commited-rate <crate>
+upstream multicast <id> peak-rate
+upstream multicast <id> peak-rate <prate>
+upstream multicast <id> enable
+upstream unicast
+upstream unicast <id>
+upstream unicast <id> commited-rate
+upstream unicast <id> commited-rate <crate>
+upstream unicast <id> peak-rate
+upstream unicast <id> peak-rate <prate>
+upstream unicast <id> enable
+=========================================================
+VIEW: slot-channel-configure-view
+=========================================================
+bridging
+bridging to
+bridging to front-port
+bridging to front-port <RANGE>
+bridging to port-channel
+bridging to port-channel <RANGE>
+bridging to slot-channel
+bridging to slot-channel <RANGE>
+do
+exit
+flow-control
+flow-control off
+flow-control on
+frame-types
+frame-types all
+frame-types tagged
+ingress-filtering
+ip
+ip arp
+ip arp inspection
+ip arp inspection static-table
+ip arp inspection static-table <IP>
+ip arp inspection static-table <IP-ADDRESS>
+ip arp inspection static-table <MAC>
+ip arp inspection static-table <MAC-ADDRESS>
+ip arp inspection static-table <VLAN>
+ip arp inspection static-table <VID>
+ip arp inspection trusted
+mode
+mode lacp
+mode static
+no
+no bridging
+no bridging to
+no bridging to front-port
+no bridging to front-port <RANGE>
+no bridging to port-channel
+no bridging to port-channel <RANGE>
+no bridging to slot-channel
+no bridging to slot-channel <RANGE>
+no ingress-filtering
+no ip
+no ip arp
+no ip arp inspection
+no ip arp inspection static-table
+no ip arp inspection static-table <IP>
+no ip arp inspection static-table <IP-ADDRESS>
+no ip arp inspection trusted
+no selective-qinq
+no selective-qinq enable
+no selective-qinq list
+no shutdown
+pvid
+pvid <pvid>
+selective-qinq
+selective-qinq enable
+selective-qinq list
+selective-qinq list <LIST NAME>
+shutdown
+speed
+speed 1000M
+speed 100M
+speed 100M full-duplex
+speed 100M half-duplex
+speed 10G
+speed 10M
+speed 10M full-duplex
+speed 10M half-duplex
+speed auto
+top
+=========================================================
+VIEW: slot-port-configure-view
+=========================================================
+do
+exit
+no
+no shutdown
+shutdown
+top
+=========================================================
+VIEW: stack-port-configure-view
+=========================================================
+do
+exit
+no
+no shutdown
+shutdown
+top
+=========================================================
+VIEW: tacacs-server-configure-view
+=========================================================
+do
+encrypted
+encrypted key
+encrypted key <EKEY>
+exit
+key
+key <KEY>
+no
+no key
+no priority
+no timeout
+port-number
+port-number <PORT>
+priority
+priority <PRIO>
+timeout
+timeout <TIMEOUT>
+top
+=========================================================
+VIEW: template-view
+=========================================================
+ber
+ber interval
+ber interval <ber_interval_value>
+ber update-period
+ber update-period <ber_update_period_value>
+broadcast-downstream
+define
+define fec
+define omci-error-tolerant
+define rf-port-state
+define ber
+define ber interval
+define ber update-period
+define broadcast-downstream
+define password
+define profile
+define profile management
+define profile ports
+define profile shaping
+define profile scripting
+define serial
+define service
+define service <id_value>
+define service profile
+define service profile dba
+define service profile cross-connect
+description
+description <VALUE>
+do
+exit
+fec
+name
+name <VALUE>
+no
+no ber
+no ber interval
+no ber update-period
+no broadcast-downstream
+no fec
+no omci-error-tolerant
+no password
+no profile
+no profile management
+no profile ports
+no profile shaping
+no profile scripting
+no rf-port-state
+no service
+no service <id_value>
+no service profile
+no service profile dba
+no service profile cross-connect
+omci-error-tolerant
+password
+password <password_value>
+profile
+profile management
+profile management <mgt_id>
+profile ports
+profile ports <ports_id>
+profile shaping
+profile shaping <shaping_id>
+profile scripting
+profile scripting <scripting_id>
+rf-port-state
+rf-port-state <rf_port_state_value>
+serial
+serial <serial_value>
+service
+service <id_value>
+service profile
+service profile dba
+service profile dba <dba_value>
+service profile cross-connect
+service profile cross-connect <cc_value>
+top
+undefine
+undefine serial
+undefine password
+undefine fec
+undefine omci-error-tolerant
+undefine rf-port-state
+undefine ber
+undefine ber interval
+undefine ber update-period
+undefine broadcast-downstream
+undefine profile
+undefine profile management
+undefine profile ports
+undefine profile shaping
+undefine profile scripting
+undefine service
+undefine service <id_value>
+undefine service profile
+undefine service profile dba
+undefine service profile cross-connect
+=========================================================
+VIEW: vlan-view
+=========================================================
+description
+description <VALUE>
+do
+downlink
+downlink extended
+downlink extended cvlan-type
+downlink extended cvlan-type <cvlan_type_value>
+downlink extended svlan-type
+downlink extended svlan-type <svlan_type_value>
+downlink insertion
+downlink insertion cvlan-ethertype
+downlink insertion cvlan-ethertype <cvlan_ethertype_value>
+downlink insertion svlan-ethertype
+downlink insertion svlan-ethertype <svlan_ethertype_value>
+exit
+name
+name <VALUE>
+no
+no description
+no downlink
+no downlink extended
+no downlink extended cvlan-type
+no downlink extended svlan-type
+no downlink insertion
+no downlink insertion cvlan-ethertype
+no downlink insertion svlan-ethertype
+no uplink
+no uplink extended
+no uplink extended cvlan-type
+no uplink extended svlan-type
+no uplink insertion
+no uplink insertion cvlan-ethertype
+no uplink insertion svlan-ethertype
+top
+uplink
+uplink extended
+uplink extended cvlan-type
+uplink extended cvlan-type <cvlan_type_value>
+uplink extended svlan-type
+uplink extended svlan-type <svlan_type_value>
+uplink insertion
+uplink insertion cvlan-ethertype
+uplink insertion cvlan-ethertype <cvlan_ethertype_value>
+uplink insertion svlan-ethertype
+uplink insertion svlan-ethertype <svlan_ethertype_value>
+=========================================================
+VIEW: vlan-view-express
+=========================================================
+do
+exit
+forbidden
+forbidden front-port
+forbidden front-port <RANGE>
+forbidden plc-front-port
+forbidden plc-front-port <RANGE>
+forbidden plc-pon-port
+forbidden plc-pon-port <RANGE>
+forbidden plc-slot-channel
+forbidden plc-slot-channel <RANGE>
+forbidden port-channel
+forbidden port-channel <RANGE>
+forbidden slot-channel
+forbidden slot-channel <RANGE>
+ip
+ip address
+ip address <A.B.C.D/n>
+ip arp
+ip arp inspection
+ip arp inspection enable
+ip igmp
+ip igmp pp4x
+ip igmp pp4x last-member-query-interval
+ip igmp pp4x last-member-query-interval <LAST_MEMBER_QUERY_INTERVAL>
+ip igmp pp4x query-interval
+ip igmp pp4x query-interval <QUERY_INTERVAL>
+ip igmp pp4x query-response-interval
+ip igmp pp4x query-response-interval <QUERY_RESPONSE_INTERVAL>
+ip igmp pp4x robustness
+ip igmp pp4x robustness <ROBUSTNESS>
+ip igmp slot
+ip igmp slot <SLOT_RANGE>
+ip igmp slot
+ip igmp slot query-interval
+ip igmp slot query-interval <QUERY_INTERVAL>
+ip igmp slot query-response-interval
+ip igmp slot query-response-interval <QUERY_RESPONSE_INTERVAL>
+ip igmp slot robustness
+ip igmp slot robustness <ROBUSTNESS>
+ip igmp slot last-member-query-interval
+ip igmp slot last-member-query-interval <LAST_MEMBER_QUERY_INTERVAL>
+ip igmp snooping
+ip igmp snooping enable
+ip igmp snooping mrouter
+ip igmp snooping mrouter add
+ip igmp snooping mrouter add front-port
+ip igmp snooping mrouter add front-port <RANGE>
+ip igmp snooping mrouter add port-channel
+ip igmp snooping mrouter add port-channel <RANGE>
+ip igmp snooping mrouter del
+ip igmp snooping mrouter del front-port
+ip igmp snooping mrouter del front-port <RANGE>
+ip igmp snooping mrouter del port-channel
+ip igmp snooping mrouter del port-channel <RANGE>
+ip igmp snooping mrouter learning
+ip igmp snooping pp4x
+ip igmp snooping pp4x enable
+ip igmp snooping querier
+ip igmp snooping querier address
+ip igmp snooping querier address <address>
+ip igmp snooping querier dscp
+ip igmp snooping querier dscp <val>
+ip igmp snooping querier enable
+ip igmp snooping querier fast-leave
+ip igmp snooping querier user-prio
+ip igmp snooping querier user-prio <val>
+ip igmp snooping slot
+ip igmp snooping slot <SLOT_RANGE>
+ip igmp snooping slot enable
+ip igmp version
+ip igmp version <VERSION>
+isolation
+isolation assign
+isolation assign front-port
+isolation assign front-port <RANGE>
+isolation assign front-port <group>
+isolation assign front-port <ISOLATION_GROUP_NUM>
+isolation assign port-channel
+isolation assign port-channel <RANGE>
+isolation assign port-channel <group>
+isolation assign port-channel <ISOLATION_GROUP_NUM>
+isolation assign slot-channel
+isolation assign slot-channel <RANGE>
+isolation assign slot-channel <group>
+isolation assign slot-channel <ISOLATION_GROUP_NUM>
+isolation enable
+name
+name <NAME>
+no
+no ip
+no ip address
+no ip address <A.B.C.D>
+no ip arp
+no ip arp inspection
+no ip arp inspection enable
+no ip igmp
+no ip igmp pp4x
+no ip igmp pp4x last-member-query-interval
+no ip igmp pp4x query-interval
+no ip igmp pp4x query-response-interval
+no ip igmp pp4x robustness
+no ip igmp slot
+no ip igmp slot <SLOT_RANGE>
+no ip igmp slot
+no ip igmp slot query-interval
+no ip igmp slot query-response-interval
+no ip igmp slot robustness
+no ip igmp slot last-member-query-interval
+no ip igmp snooping
+no ip igmp snooping enable
+no ip igmp snooping mrouter
+no ip igmp snooping mrouter learning
+no ip igmp snooping pp4x
+no ip igmp snooping pp4x enable
+no ip igmp snooping querier
+no ip igmp snooping querier address
+no ip igmp snooping querier dscp
+no ip igmp snooping querier enable
+no ip igmp snooping querier fast-leave
+no ip igmp snooping querier user-prio
+no ip igmp snooping slot
+no ip igmp snooping slot <SLOT_RANGE>
+no ip igmp snooping slot enable
+no ip igmp version
+no isolation
+no isolation assign
+no isolation assign front-port
+no isolation assign front-port <RANGE>
+no isolation assign port-channel
+no isolation assign port-channel <RANGE>
+no isolation assign slot-channel
+no isolation assign slot-channel <RANGE>
+no isolation enable
+tagged
+tagged front-port
+tagged front-port <RANGE>
+tagged plc-front-port
+tagged plc-front-port <RANGE>
+tagged plc-pon-port
+tagged plc-pon-port <RANGE>
+tagged plc-slot-channel
+tagged plc-slot-channel <RANGE>
+tagged port-channel
+tagged port-channel <RANGE>
+tagged slot-channel
+tagged slot-channel <RANGE>
+top
+untagged
+untagged front-port
+untagged front-port <RANGE>
+untagged plc-front-port
+untagged plc-front-port <RANGE>
+untagged plc-pon-port
+untagged plc-pon-port <RANGE>
+untagged plc-slot-channel
+untagged plc-slot-channel <RANGE>
+untagged port-channel
+untagged port-channel <RANGE>
+untagged slot-channel
+untagged slot-channel <RANGE>
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ma4000# [J
